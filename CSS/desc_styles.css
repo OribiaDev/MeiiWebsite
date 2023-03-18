@@ -13,6 +13,14 @@ hr {
     width: 80%;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    background-color: transparent;
+    display: none;
+  }
 
 
 
