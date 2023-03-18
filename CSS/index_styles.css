@@ -216,7 +216,7 @@ hr {
 
 /* Box 1 */
 .box1{
-    background-image: linear-gradient(to right, #ef629f, #eaaf62); 
+    background-image: linear-gradient(to right, #f15f79, #b24592);
     width: 45%;
     position: relative;
     margin: auto;
@@ -241,7 +241,7 @@ hr {
 
  /* Box 2 */
 .box2{
-    background-image: linear-gradient(to right, #b24592, #f15f79);
+    background-image: linear-gradient(to right, #f15f79, #b24592);
     width: 45%;
     position: relative;
     margin: auto;
@@ -297,7 +297,7 @@ hr {
 
 /* Box 3 */
 .box3{
-    background-image: linear-gradient(to right, #eecda3, #ef629f);;
+    background-image: linear-gradient(to right, #f15f79, #b24592);
     width: 45%;
     position: relative;
     margin: auto;
@@ -329,7 +329,7 @@ hr {
 
 /* Command Boxs */
 .commandbox{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.788);
     width: 80%;
     margin: auto;
     border-radius: 20px;

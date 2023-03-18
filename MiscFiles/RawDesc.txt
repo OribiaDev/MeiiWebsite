@@ -48,7 +48,7 @@ body::-webkit-scrollbar {
 
 /* Box 1 */
 .box1{
-    background-image:  linear-gradient(to right, #ef629f, #eaaf62); 
+    background-image:  linear-gradient(to right, #f15f79, #b24592);
     width: 90%;
     position: relative;
     margin: auto;
@@ -74,7 +74,7 @@ body::-webkit-scrollbar {
 
  /* Box 2 */
 .box2{
-    background-image: linear-gradient(to right, #b24592, #f15f79);
+    background-image: linear-gradient(to right, #f15f79, #b24592);
     width: 90%;
     position: relative;
     margin: auto;
@@ -132,7 +132,7 @@ body::-webkit-scrollbar {
 
 /* Box 3 */
 .box3{
-    background-image: linear-gradient(to right, #eecda3, #ef629f);;
+    background-image: linear-gradient(to right, #f15f79, #b24592);
     width: 90%;
     position: relative;
     margin: auto;
@@ -165,7 +165,7 @@ body::-webkit-scrollbar {
 
 /* Command Boxs */
 .commandbox{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.788);
     width: 80%;
     margin: auto;
     border-radius: 20px;
@@ -219,7 +219,6 @@ body::-webkit-scrollbar {
 </div>
 <br>
 <br>
-<br>
 <div class="box2">
     <div class = "box2background">
         <br>
@@ -244,7 +243,6 @@ body::-webkit-scrollbar {
 </div>
 <br>
 <br>
-<br>
 <div class="box3">
     <div class = "box3background">
         <br>
@@ -254,12 +252,12 @@ body::-webkit-scrollbar {
         <br>
         <div class="commandbox">
             <p><b>/setconfesschannel [#channel]</b></p>
-            <p>Sets the channel were confessions are sent.</p>
+            <p>Sets the channel where confessions are sent.</p>
         </div>
         <br>
         <div class="commandbox">
             <p><b>/setconfesslogs [#channel]</b></p>
-            <p>Sets the channel were confession logs are sent.</p>
+            <p>Sets the channel where confession logs are sent.</p>
         </div>
         <br>
         <div class="commandbox">
