@@ -16,7 +16,7 @@ MeiiHomepage is a website that is a hub for my discord bot Meii. Its currently a
 
 ### Executing program 
 
-* Double click the html file inside the folder, or go to [https://oribiadev.github.io/MeiiWebpage/](https://oribiadev.github.io/MeiiWebpage/) to see the live version
+* Double click the html file inside the folder, or go to [https://meiibot.xyz](meiibot.xyz) to see the live version
 
 ## Help
 
