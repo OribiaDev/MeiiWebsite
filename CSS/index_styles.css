@@ -13,7 +13,6 @@ html{
     overflow: hidden;
     height: 83.4px;
     top: 0;
-    position: sticky;
   }
 
   .NavLinks a {
@@ -24,8 +23,6 @@ html{
     transition: all 0.2s ease; 
     text-decoration: none;
     border-radius: 8px;
-    font-size: 28px;
-    padding: 14px 18px;
   }
 
   .NavLinks a:hover {
@@ -55,8 +52,6 @@ html{
     text-decoration: none;
     border-radius: 8px;
     letter-spacing: normal;
-    font-size: 28px;
-    padding: 21px 30px;
     cursor: default;
   }
 
@@ -72,9 +67,7 @@ body::-webkit-scrollbar {
 
 .bodybubble{
     background-color: rgba(128, 128, 128, 0.397);
-    width: 25%;
     margin: auto;
-    margin-top: 2%;
     border-radius: 25px;
 }
 
@@ -92,10 +85,24 @@ body::-webkit-scrollbar {
     margin: auto;
 }
 
-.img{
-    height: 10px;
-    max-height:100%;
-    height: auto   
+img {
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+.widget{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  width: fit-content;
 }
 
 .bubbletitle {
@@ -155,7 +162,6 @@ body::-webkit-scrollbar {
     display: block;
     width: fit-content;
     margin: auto;
-    height: 150px;
 }
 
 /* Footer */
@@ -199,10 +205,6 @@ body::-webkit-scrollbar {
   filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
 }
 
-
-
-
-
 /* BOT LISTINGS */
 hr {
     display: block;
@@ -217,7 +219,6 @@ hr {
 /* Box 1 */
 .box1{
     background-image: linear-gradient(to right, #f15f79, #b24592);
-    width: 45%;
     position: relative;
     margin: auto;
     border-radius: 25px;
@@ -226,7 +227,6 @@ hr {
     font-family: 'Roboto Mono', monospace;
     text-align: center;
     color: rgb(228, 228, 228);
-    font-size: 17px;
     margin-left: 40px;
     margin-right: 40px;
     filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
@@ -242,7 +242,6 @@ hr {
  /* Box 2 */
 .box2{
     background-image: linear-gradient(to right, #f15f79, #b24592);
-    width: 45%;
     position: relative;
     margin: auto;
     border-radius: 25px;
@@ -251,7 +250,6 @@ hr {
     font-family: 'Roboto Mono', monospace;
     text-align: center;
     color: white;
-    font-size: 17px;
     margin-left: 40px;
     margin-right: 40px;
     filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
@@ -298,7 +296,6 @@ hr {
 /* Box 3 */
 .box3{
     background-image: linear-gradient(to right, #f15f79, #b24592);
-    width: 45%;
     position: relative;
     margin: auto;
     border-radius: 25px;
@@ -307,7 +304,6 @@ hr {
     font-family: 'Roboto Mono', monospace;
     text-align: center;
     color: white;
-    font-size: 17px;
     margin-left: 40px;
     margin-right: 40px;
     filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
@@ -317,42 +313,16 @@ hr {
     text-align: center;
     color: white;
     filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
-
-}
-
-.box3 h2{
-    font-family: 'Roboto Mono', monospace;
-    text-align: center;
-    color: white;
-    
 }
 
 /* Command Boxs */
 .commandbox{
     background-color: rgba(255, 255, 255, 0.788);
-    width: 80%;
     margin: auto;
     border-radius: 20px;
 }
 
 .commandbox p {
-    font-family: 'Roboto Mono', monospace;
-    text-align: center;
-    color: black;
-    font-size: 15px;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-.commandbox h1 {
-    font-family: 'Roboto Mono', monospace;
-    text-align: center;
-    color: black;
-
-}
-
-.commandbox h2{
-    font-family: 'Roboto Mono', monospace;
-    text-align: center;
     color: black;
 }
 
@@ -367,6 +337,181 @@ hr {
     width: 80%;
 }
 
+/* Platform Optimizations */
+
+/* Media Query For Desktop */
+@media only screen and (min-device-width: 450px) and (min-device-height: 860px){
+    /* Navigation Bar*/
+  .NavLinks a {
+    padding: 21px 18px;
+    font-size: 28px;
+  }   
+  .HomeNav a {
+    font-size: 28px;
+    padding: 21px 30px;
+  }
+  .topnav {
+    position: sticky;
+  }
+  /* Main Bubble */
+  .bodybubble{
+    width: 25%;
+    margin-top: 2%;
+  }
+  .center {
+    max-width: 100%;
+  }
+  .bodybubble p {
+    font-size: 16px;
+  } 
+  .bubbletitle {
+    font-size: 55px;
+  }
+  .widget{
+    max-width: 100%;
+  }
+  .topembed{
+    height: 150px;
+  }
+  /* Box 1 */
+  .box1{
+    width: 45%;
+  }
+  .box1 p {
+    font-size: 17px;
+  }
+  /* Box 2 */
+  .box2{
+    width: 45%;
+  }
+  .box2 p {
+    font-size: 17px;
+  }
+  .box2 h1 {
+    font-size: 0px;
+  }
+  .box2 h2{
+    font-size: 0px;
+  } 
+  /* Box 3 */
+  .box3{
+    width: 45%;
+  }
+  .box3 p {
+    font-size: 17px;
+  }
+  /* Command Box's */
+  .commandbox{
+    width: 80%;
+  }
+}
+
+/* Media Query For Laptops */
+@media only screen and (max-height: 850px) and (min-width: 420px){
+  /* Nav Bar */
+  .topnav{
+    position: relative;
+  }
+  /* Widget */
+  .widget{
+    max-width: 75%;
+  } 
+  /* Main Bubble */
+  .bodybubble{
+    width: 45%;
+  }
+}
+
+/* Media Query Phones */
+@media only screen and (max-device-width: 421px) {
+    /* Navigation Bar*/
+    .NavLinks a {
+      padding: 10px 8px;
+      font-size: 18px;
+    }   
+    .HomeNav a {
+      font-size: 20px;
+      padding: 10px 15px;
+    }
+    /* Main Bubble */
+    .bodybubble{
+      width: 85%;
+      margin-top: 2%;
+    }
+    .center {
+      max-width: 70%;
+    }
+    .bodybubble p {
+      font-size: 14px;
+    }
+    .bubbletitle {
+      font-size: 32px;
+    }
+    .widget{
+      max-width: 70%;
+    } 
+    .topembed{
+      height: 105px;
+    } 
+    /* Box 1 */
+    .box1{
+      width: 85%;
+    }
+    .box1 p {
+      font-size: 15px;
+    }
+    .box1 h1 {
+      font-size: 20px;
+    }
+    /* Box 2 */
+    .box2{
+      width: 85%;
+    }
+    .box2 p {
+      font-size: 15px;
+    }
+    .box2 h1 {
+      font-size: 20px;
+    } 
+    .box2 h2{
+      font-size: 16px;
+    }
+    /* Box 3 */
+    .box3{
+      width: 85%;
+    }
+    .box3 h1 {
+      font-size: 20px;
+    }
+    .box3 p {
+      font-size: 13px;
+    }
+    /* Command Box's */
+    .commandbox{
+      width: 88%;
+   }
+   /* Footer */
+   .footer p {
+    font-size: 13px;
+  }
+}
+
+/* Media Query Extra Smaller Phones */
+@media only screen and (max-device-height: 635px) {
+    /* Navigation Bar*/
+    .NavLinks a {
+      padding: 10px 8px;
+      font-size: 16px;
+    }   
+    .HomeNav a {
+      font-size: 18px;
+      padding: 10px 15px;
+    }
+    /* Box 2 */
+    .box2 h2{
+      font-size: 14px;
+    }
+}
 
 
 
