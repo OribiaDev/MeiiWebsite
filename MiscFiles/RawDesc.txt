@@ -250,113 +250,143 @@ body::-webkit-scrollbar {
         <div class="box3h1">Commands</div>
         <hr>
         <br>
-        <div class="commandbox">
-            <p><b>/setconfesschannel [#channel]</b></p>
-            <p>Sets the channel where confessions are sent.</p>
-        </div>
-        <br>
-        <div class="commandbox">
-            <p><b>/setconfesslogs [#channel]</b></p>
-            <p>Sets the channel where confession logs are sent.</p>
-        </div>
-        <br>
-        <div class="commandbox">
-            <p><b>/confessban [@person]</b></p>
-            <p>Bans mentioned person from confessions.</p>
-        </div>
-        <br>
-        <div class="commandbox">
-            <p><b>/confessunban [@person]</b></p>
-            <p>Unbans mentioned person from confessions.</p>
-        </div>
-        <br>
-        <div class="commandbox">
-            <p><b>/kiss [@someone]</b></p>
-            <p>Sends a gif emote of you kissing the mentioned person.</p>
-        </div>
-        <br>
-        <div class="commandbox">
-            <p><b>/hug [@someone]</b></p>
-            <p>Sends a gif emote of you hugging the mentioned person..</p>
-        </div>
-        <br>
-        <div class="commandbox">
-            <p><b>/cuddle [@someone]</b></p>
-            <p>Sends a gif emote of you cuddling the mentioned person.</p>
-        </div>
-        <br>
-        <div class="commandbox">
-            <p><b>/slap [@someone]</b></p>
-            <p>Sends a gif emote of you slapping the mentioned person.</p>
-        </div>
-        <br>
-        <div class="commandbox">
-            <p><b>/kill [@someone]</b></p>
-            <p>Sends a gif emote of you killing the mentioned person.</p>
-        </div>
-        <br>
-        <div class="commandbox">
-            <p><b>/yeet [@someone]</b></p>
-            <p>Sends a gif emote of you yeeting the mentioned person.</p>
-        </div>
-        <br>
-        <div class="commandbox">
-            <p><b>/bonk [@someone]</b></p>
-            <p>Sends a gif emote of you bonking the mentioned person.</p>
-        </div>
-        <br>
-        <div class="commandbox">
-            <p><b>/poke [@someone]</b></p>
-            <p>Sends a gif emote of you bonking the mentioned person.</p>
-        </div>
-        <br>
-        <div class="commandbox">
-            <p><b>/handhold [@someone]</b></p>
-            <p>Sends a gif emote of you holding hands with the mentioned person.</p>
-        </div>
-        <br>
-        <div class="commandbox">
-            <p><b>/ban [@someone]</b></p>
-            <p>Bans mentioned person from the server.</p>
-        </div>
-        <br>
-        <div class="commandbox">
-            <p><b>/kick [@someone]</b></p>
-            <p>Kicks mentioned person from the server.</p>
-        </div>
-        <br>
-        <div class="commandbox">
-            <p><b>/dice</b></p>
-            <p>Rolls a 6 sided die.</p>
-        </div>
-        <br>
-        <div class="commandbox">
-            <p><b>/coinflip</b></p>
-            <p>Flips a coin.</p>
-        </div>
-        <br>
-        <div class="commandbox">
-            <p><b>/ping</b></p>
-            <p>Shows Meii's ping.</p>
-        </div>
-        <br>
-        <div class="commandbox">
-            <p><b>/stats</b></p>
-            <p>Shows the stats of Meii.</p>
-        </div>
-        <br>
-        <div class="commandbox">
-            <p><b>/help</b></p>
-            <p>A full list of Meii's commands.</p>
-        </div>
-        <br>
-        <div class="commandbox">
-            <p><b>/support</b></p>
-            <p>Sends the invite for Meii's support Discord server.</p>
-        </div>
-        <br>
-        <p><i>* For a full list, use the command <b>/help</b></i></p>
-        <br>
+            <div class="commandbox">
+                <p><b>/help</b></p>
+                <p>A full list of Meii's commands.</p>
+            </div>
+            <br>
+            <div class="commandbox">
+                <p><b>/define [word]</b></p>
+                <p>Gets the definition of a word</p>
+            </div>
+            <br>
+            <div class="commandbox">
+                <p><b>/binary [encode/decode] [text]</b></p>
+                <p>Encodes/Decodes binary text</p>
+            </div>
+            <br>
+            <div class="commandbox">
+                <p><b>/kiss [@someone]</b></p>
+                <p>Sends a gif emote of you kissing the mentioned person.</p>
+            </div>
+            <br>
+            <div class="commandbox">
+                <p><b>/hug [@someone]</b></p>
+                <p>Sends a gif emote of you hugging the mentioned person..</p>
+            </div>
+            <br>
+            <div class="commandbox">
+                <p><b>/cuddle [@someone]</b></p>
+                <p>Sends a gif emote of you cuddling the mentioned person.</p>
+            </div>
+            <br>
+            <div class="commandbox">
+                <p><b>/slap [@someone]</b></p>
+                <p>Sends a gif emote of you slapping the mentioned person.</p>
+            </div>
+            <br>
+            <div class="commandbox">
+                <p><b>/kill [@someone]</b></p>
+                <p>Sends a gif emote of you killing the mentioned person.</p>
+            </div>
+            <br>
+            <div class="commandbox">
+                <p><b>/yeet [@someone]</b></p>
+                <p>Sends a gif emote of you yeeting the mentioned person.</p>
+            </div>
+            <br>
+            <div class="commandbox">
+                <p><b>/bonk [@someone]</b></p>
+                <p>Sends a gif emote of you bonking the mentioned person.</p>
+            </div>
+            <br>
+            <div class="commandbox">
+                <p><b>/poke [@someone]</b></p>
+                <p>Sends a gif emote of you bonking the mentioned person.</p>
+            </div>
+            <br>
+            <div class="commandbox">
+                <p><b>/handhold [@someone]</b></p>
+                <p>Sends a gif emote of you holding hands with the mentioned person.</p>
+            </div>
+            <br>
+            <div class="commandbox">
+                <p><b>/setconfesschannel [#channel]</b></p>
+                <p>Sets the channel where confessions are sent.</p>
+            </div>
+            <br>
+            <div class="commandbox">
+                <p><b>/setconfesslogs [#channel]</b></p>
+                <p>Sets the channel where confession logs are sent.</p>
+            </div>
+            <br>
+            <div class="commandbox">
+                <p><b>/ban [@someone]</b></p>
+                <p>Bans mentioned person from the server.</p>
+            </div>
+            <br>
+            <div class="commandbox">
+                <p><b>/kick [@someone]</b></p>
+                <p>Kicks mentioned person from the server.</p>
+            </div>
+            <br>
+            <div class="commandbox">
+                <p><b>/confessban [@person]</b></p>
+                <p>Bans mentioned person from confessions.</p>
+            </div>
+            <br>
+            <div class="commandbox">
+                <p><b>/confessunban [@person]</b></p>
+                <p>Unbans mentioned person from confessions.</p>
+            </div>
+            <br>
+            <div class="commandbox">
+                <p><b>/animal [category]</b></p>
+                <p>Shows a random animal image</p>
+            </div>
+            <br>
+            <div class="commandbox">
+                <p><b>/joke</b></p>
+                <p>Sends a random <strike>corny</strike> joke</p>
+            </div>
+            <br>
+            <div class="commandbox">
+                <p><b>/dice</b></p>
+                <p>Rolls a 6 sided die.</p>
+            </div>
+            <br>
+            <div class="commandbox">
+                <p><b>/coinflip</b></p>
+                <p>Flips a coin.</p>
+            </div>
+            <br>
+            <div class="commandbox">
+                <p><b>/info [user/server]</b></p>
+                <p>Shows info about a user or server</p>
+            </div>
+            <br>
+            <div class="commandbox">
+                <p><b>/ping</b></p>
+                <p>Shows Meii's ping.</p>
+            </div>
+            <br>
+            <div class="commandbox">
+                <p><b>/uptime</b></p>
+                <p>Shows Meii's Uptime</p>
+            </div>
+            <br>
+            <div class="commandbox">
+                <p><b>/stats</b></p>
+                <p>Shows the stats of Meii.</p>
+            </div>
+            <br>
+            <div class="commandbox">
+                <p><b>/support</b></p>
+                <p>Sends the invite for Meii's support Discord server.</p>
+            </div>
+            <br>
+            <p><i>* For a full list, use the command <b>/help</b></i></p>
+            <br>
     </div>
 </div>
 <br>
