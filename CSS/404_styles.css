@@ -80,7 +80,12 @@ body::-webkit-scrollbar {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color: white;
-    font-size: 16px;
+}
+
+.num2cen {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(255, 255, 255, 0.493);
 }
 
 .logoimg{
@@ -236,9 +241,15 @@ img {
   }
   /* Main Bubble */
   .bodybubble{
-    width: 65%;
-    margin-top: 2%;
+    width: 35%;
+    margin-top: 5%;
   }
+  .bodybubblecen {
+    font-size: 30px;
+    }
+    .num2cen {
+        font-size: 17px;
+    }
   .center {
     max-width: 100%;
   }
@@ -246,7 +257,7 @@ img {
     font-size: 16px;
   } 
   .bubbletitle {
-    font-size: 40px;
+    font-size: 60px;
   }
   .widget{
     max-width: 100%;

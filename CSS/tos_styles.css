@@ -13,10 +13,11 @@ html{
     overflow: hidden;
     height: 83.4px;
     top: 0;
+    padding-right: 15px;
   }
 
   .NavLinks a {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     float: right;
     color: #d8c4c4;
     text-align: center;
@@ -28,7 +29,7 @@ html{
   .NavLinks a:hover {
     text-decoration: underline;
     color: rgb(190, 190, 190);
-    letter-spacing: 0.05em;
+    letter-spacing: 0.03em;
   }
   
   .NavLinks a.active {
@@ -38,12 +39,8 @@ html{
   }
 
   
-  .HomeNav a:hover{
-    letter-spacing: 0.04em;
-  }
-
   .HomeNav a {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     transition: all 0.2s ease; 
     float: left;
     color: #f2f2f2;
@@ -66,14 +63,14 @@ body::-webkit-scrollbar {
 }
 
 .bodybubble{
-    background-color: rgba(128, 128, 128, 0.397);
+    background-color: rgba(128, 128, 128, 0.426);
     margin: auto;
     border-radius: 25px;
 }
 
 .bodybubble p {
     text-align: left;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     color: white;
     font-size: 16px;
     padding-left: 40px;
@@ -82,7 +79,7 @@ body::-webkit-scrollbar {
 
 .bodybubblecen {
     text-align: center;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     color: white;
     font-size: 16px;
 }
@@ -169,7 +166,8 @@ filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
   }
 
   .footer p {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .01em;
     color: #ffffff;
     text-align: center;
     padding: 0px 50px;
@@ -296,7 +294,7 @@ filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
       padding-right: 25px;
     }
     .bubbletitle {
-      font-size: 32px;
+      font-size: 28px;
     }
     .widget{
       max-width: 70%;
@@ -305,6 +303,9 @@ filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
       height: 105px;
     } 
    /* Footer */
+   .footer{
+    padding: 0px;
+   }
    .footer p {
     font-size: 13px;
   }
@@ -320,6 +321,12 @@ filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
     .HomeNav a {
       font-size: 18px;
       padding: 10px 15px;
+    }
+    .footer{
+      padding: 0px;
+     }
+     .footer p {
+      font-size: 12px;
     }
 }
 

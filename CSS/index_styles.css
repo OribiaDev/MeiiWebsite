@@ -13,10 +13,11 @@ html{
     overflow: hidden;
     height: 83.4px;
     top: 0;
+    padding-right: 15px;
   }
 
   .NavLinks a {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     float: right;
     color: #d8c4c4;
     text-align: center;
@@ -28,7 +29,7 @@ html{
   .NavLinks a:hover {
     text-decoration: underline;
     color: rgb(190, 190, 190);
-    letter-spacing: 0.05em;
+    letter-spacing: 0.03em;
   }
   
   .NavLinks a.active {
@@ -38,12 +39,10 @@ html{
   }
 
   
-  .HomeNav a:hover{
-    letter-spacing: 0.04em;
-  }
+
 
   .HomeNav a {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     transition: all 0.2s ease; 
     float: left;
     color: #f2f2f2;
@@ -66,17 +65,18 @@ body::-webkit-scrollbar {
 }
 
 .bodybubble{
-    background-color: rgba(128, 128, 128, 0.397);
+    background-color: rgba(128, 128, 128, 0.426);
     margin: auto;
     border-radius: 25px;
 }
 
 .bodybubble p {
     text-align: center;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     color: white;
     font-size: 16px;
     cursor: default;
+    letter-spacing: 0.01em;
 }
 
 .logoimg{
@@ -110,17 +110,12 @@ img {
     text-align: center;
     color: white;
     filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
-    letter-spacing: 0.02em;
+    letter-spacing: 0.01em;
     font-size: 55px;
     cursor: default;
     transition: 0.2s;
     width: fit-content;
     margin: auto;
-}
-
-.bubbletitle:hover{
-    letter-spacing: 0.05em;
-    transition: 0.2s;
 }
 
 .bodybubble hr {
@@ -142,7 +137,7 @@ img {
   }  
 
   .bodybubble a:hover {
-    color:  rgb(236, 130, 220);
+    color:  rgb(225, 122, 221);
     background-color: transparent;
     text-decoration: underline;
     filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
@@ -181,7 +176,8 @@ img {
   }
 
   .footer p {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .01em;
     color: #ffffff;
     text-align: center;
     padding: 0px 50px;
@@ -239,7 +235,8 @@ hr {
     border-radius: 25px;
 }
 .box1 p {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .01em;
     text-align: center;
     color: rgb(228, 228, 228);
     margin-left: 40px;
@@ -248,7 +245,8 @@ hr {
     
 }
 .box1 h1 {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .01em;
     text-align: center;
     color: white;
     filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
@@ -262,7 +260,8 @@ hr {
     border-radius: 25px;
 }
 .box2 p {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .01em;
     text-align: center;
     color: white;
     margin-left: 40px;
@@ -270,7 +269,8 @@ hr {
     filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
 }
 .box2 h1 {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .01em;
     text-align: center;
     color: white;
     filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
@@ -278,7 +278,8 @@ hr {
 }
 
 .box2 h2{
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .01em;
     text-align: center;
     color: white;
     filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
@@ -323,7 +324,8 @@ hr {
     border-radius: 25px;
 }
 .box3 p {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .01em;
     text-align: center;
     color: white;
     margin-left: 40px;
@@ -331,7 +333,8 @@ hr {
     filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
 }
 .box3 h1 {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .01em;
     text-align: center;
     color: white;
     filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
@@ -444,6 +447,7 @@ hr {
     .NavLinks a {
       padding: 10px 8px;
       font-size: 18px;
+      padding: 10px 7px;
     }   
     .HomeNav a {
       font-size: 20px;
@@ -474,7 +478,8 @@ hr {
       width: 85%;
     }
     .box1 p {
-      font-size: 15px;
+      font-size: 14px;
+      text-align: left;
     }
     .box1 h1 {
       font-size: 20px;
@@ -484,13 +489,14 @@ hr {
       width: 85%;
     }
     .box2 p {
-      font-size: 15px;
+      font-size: 14px;
+      text-align: left;
     }
     .box2 h1 {
       font-size: 20px;
     } 
     .box2 h2{
-      font-size: 16px;
+      font-size: 14.5px;
     }
     /* Box 3 */
     .box3{
@@ -507,6 +513,9 @@ hr {
       width: 88%;
    }
    /* Footer */
+   .footer{
+    padding: 0px;
+   }
    .footer p {
     font-size: 13px;
   }
@@ -517,7 +526,7 @@ hr {
     /* Navigation Bar*/
     .NavLinks a {
       padding: 10px 8px;
-      font-size: 16px;
+      font-size: 15px;
     }   
     .HomeNav a {
       font-size: 18px;
@@ -525,8 +534,15 @@ hr {
     }
     /* Box 2 */
     .box2 h2{
-      font-size: 14px;
+      font-size: 13px;
     }
+       /* Footer */
+   .footer{
+    padding: 0px;
+   }
+   .footer p {
+    font-size: 12px;
+  }
 }
 
 
