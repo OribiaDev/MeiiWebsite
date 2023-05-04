@@ -5,7 +5,7 @@
 
 ## Description
 
-MeiiHomepage is a website that is a hub for my discord bot Meii. Its currently a work in progress however right now it hosts a simple webpage thats used as an IFrame as the description on the top.gg bot listing. 
+MeiiHomepage is the homepage for my discord bot Meii. It has useful tips and tricks with ways to invite Meii and see its full command list. This website is also hosted on my home web server <3
 
 ## Getting Started
 
