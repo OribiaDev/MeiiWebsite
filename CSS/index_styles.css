@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=M+PLUS+1p&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
+/* Animations */
+@keyframes FadeIn {
+  0% {opacity:0%;}
+  100% {opacity:100%;}
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -60,12 +66,13 @@ body::-webkit-scrollbar {
   }
 
 .body{
-    background-image: linear-gradient(to right, #c33764, #1d2671);
+    background: linear-gradient(to right, #c33764, #1d2671);
+    background: -webkit-linear-gradient(to right, #c33764, #1d2671);
     backdrop-filter: blur(10px);
 }
 
 .bodybubble{
-    background-color: rgba(128, 128, 128, 0.426);
+    background-color: rgba(118, 118, 118, 0.5);
     margin: auto;
     border-radius: 25px;
 }
@@ -105,6 +112,11 @@ img {
   width: fit-content;
 }
 
+.topembed{
+  animation: FadeIn 0.3s forwards;
+  animation-play-state: paused;
+}
+
 .bubbletitle {
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -125,7 +137,7 @@ img {
     border-top: 2px solid #cccccc7a;
     margin: auto;
     padding: 0;
-    width: 80%;
+    width: 70%;
 }
 
 .bodybubble a:link {
@@ -141,8 +153,8 @@ img {
     background-color: transparent;
     text-decoration: underline;
     filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
-    letter-spacing: .02em;
-    transition: 0.1s;
+    letter-spacing: .018em;
+    transition: 0.09s;
 
   }
 
@@ -369,7 +381,7 @@ hr {
     /* Navigation Bar*/
   .NavLinks a {
     padding: 21px 18px;
-    font-size: 28px;
+    font-size: 26px;
   }   
   .HomeNav a {
     font-size: 28px;

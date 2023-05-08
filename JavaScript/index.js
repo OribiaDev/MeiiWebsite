@@ -1,12 +1,11 @@
 //Vars
-var version = 'v1.3.0'
+var version = 'v1.3.1'
 var copyrightyear = '2023'
 
 //On Load
-window.onload = function() {
-  console.log('Page Loaded')
+document.addEventListener('DOMContentLoaded', async () => {
 
-  //Footer
+    //Footer
   // Create the footer embed
   const embed = `
   <p> Copyright © ${copyrightyear} Oribia. All rights reserved </p>
@@ -15,7 +14,12 @@ window.onload = function() {
   `;
 // Add the embed to the page
 $('#footer').html(embed);
-}
+
+// Top Embed Fadein
+setTimeout(function() {
+    $('.topembed').css("animation-play-state", "running");
+}, 1350);
+});
 
 
 
@@ -26,7 +30,7 @@ window.onscroll = function() {
     var head2 = document.getElementById('head2');
     var head3 = document.getElementById('head3');
     //Home
-    if(window.pageYOffset > 800){
+    if(window.pageYOffset < 1080){
         //Add ActiveClass
         head1.classList.add("active");
         //Remove Active Classes
@@ -34,14 +38,14 @@ window.onscroll = function() {
         head3.classList.remove("active");
     }
     //Mei?
-    if (window.pageYOffset > 1050) {
+    if (window.pageYOffset > 1080) {
         //Add Active
         head2.classList.add("active");
         //Remove Active
         head1.classList.remove("active");
         head3.classList.remove("active");
     }
-    if (window.pageYOffset > 2200) {
+    if (window.pageYOffset > 2400) {
         //Add Active
         head3.classList.add("active");
         //Remove Active
