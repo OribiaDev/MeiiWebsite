@@ -5,7 +5,7 @@
 
 ## Description
 
-MeiiHomepage is the homepage for my discord bot Meii. It has useful tips and tricks with ways to invite Meii and see its full command list. This website is also hosted on my home web server <3
+MeiiHomepage is the homepage for my discord bot Meii. It has useful tips and tricks with ways to invite Meii and see its full command list. This website is also hosted on my home web server.
 
 ## Getting Started
 
