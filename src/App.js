@@ -10,7 +10,6 @@ import TermsOfService from "./WebPages/terms-of-service";
 //Componets
 import Footer from "./Componets/footer";
 
-
 function App() {
   return (
     <Router>
