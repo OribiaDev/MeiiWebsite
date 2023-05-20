@@ -7,7 +7,7 @@
 
 MeiiHomepage is the homepage for my discord bot Meii. It has useful tips and tricks with ways to invite Meii and see its full command list. This website is also hosted on my home web server and made with React.
 
-## Getting Started with Create React App
+## Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
