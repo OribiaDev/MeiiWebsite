@@ -29,6 +29,7 @@ const privacyPolicy = () => {
         <><ScrollToTopOnMount /><div className="pp-content">
             <Helmet>
                 <title>Privacy Policy • Meii</title>
+                <meta property="og:title" content="Privacy Policy • Meii" />
                 <meta property="og:description" content="Privacy Policy for the Discord bot Meii" />
                 <meta name="description" content="Privacy Policy for the Discord bot Meii" />
             </Helmet>

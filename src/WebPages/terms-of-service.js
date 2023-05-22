@@ -28,6 +28,7 @@ const termsOfService = () => {
         <><ScrollToTopOnMount /><div className="tos-content">
             <Helmet>
                 <title>Terms Of Service • Meii</title>
+                <meta property="og:title" content="Terms Of Service • Meii" />
                 <meta property="og:description" content="Terms of Service for the Discord bot Meii" />
                 <meta name="description" content="Terms of Service for the Discord bot Meii" />
             </Helmet>

@@ -28,6 +28,7 @@ const four04 = () => {
         <><ScrollToTopOnMount /><div className="fouro4Content">
             <Helmet>
                 <title>404 • Meii</title>
+                <meta property="og:title" content="404 • Meii" />
                 <meta property="og:description" content="404 Page Not Found" />
                 <meta name="description" content="404 Page Not Found" />
                 <meta property="og:description" content="404 Page Not Found" />

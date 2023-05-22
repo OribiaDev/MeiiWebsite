@@ -12,7 +12,7 @@ const Home = () => {
     return (  
         <><Helmet>
             <title>Meii</title>
-            <meta property="og:description" content="404 Page Not Found" />
+            <meta property="og:title" content="Meii" />
             <meta name="description" content="Homepage for the Discord bot Meii" />
             <meta property="og:description" content="Homepage for the Discord bot Meii" />
         </Helmet><><NavBar /><body id="MeiiMain" class="body">
