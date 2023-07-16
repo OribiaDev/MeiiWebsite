@@ -18,18 +18,6 @@ const Home = () => {
         </Helmet><><NavBar /><body id="MeiiMain" class="body">
             {/* Body Bubble */}
             <BodyBubble />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
             <Box1 />
             <br />
             <br />

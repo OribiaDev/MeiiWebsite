@@ -1,58 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Montserrat&family=Poppins&family=Roboto+Mono&display=swap');
- 
-  /* Navigation Bar*/
-  .topnav {
-    z-index: 1;
-    background-color: transparent;
-    height: 83.4px;
-    top: 0px;
-    padding-right: 15px;
-    position: sticky;
-  }
 
-  .NavLinks a {
-    font-family: 'Poppins', sans-serif;
-    float: right;
-    color: #ffffff;
-    text-align: center;
-    transition: all 0.16s ease; 
-    text-decoration: none;
-    border-radius: 8px;
-    padding: 21px 18px;
-    font-size: 26px;
-  }
+/* Navigation Bar*/
+.topnav {
+  z-index: 1;
+  background-color: transparent;
+  height: 83.4px;
+  top: 0px;
+  padding-right: 15px;
+  position: sticky;
+}
 
-  .NavLinks a:hover {
-    color: #bda8e0;
-  }
+.NavLinks a {
+  font-family: 'Poppins', sans-serif;
+  float: right;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.10s ease; 
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 21px 18px;
+  font-size: 26px;
+}
+
+.NavLinks a:hover {
+  color: #bda8e0;
+}
   
-
-  
-
-
-  .HomeNav a {
-    font-family: 'Poppins', sans-serif;
-    transition: all 0.2s ease; 
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    margin: auto;
-    text-decoration: none;
-    border-radius: 8px;
-    letter-spacing: normal;
-    cursor: default;
-    font-size: 28px;
-    padding: 21px 30px;
-  }
+.HomeNav a {
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.2s ease; 
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+  border-radius: 8px;
+  letter-spacing: normal;
+  cursor: default;
+  font-size: 28px;
+  padding: 21px 30px;
+}
 
   
 /* Platform Optimizations */
 /* Media Query For Laptops */
-@media only screen and (max-height: 850px) and (min-width: 420px){
-/* Nav Bar */
-.topnav{
-  position: relative;
-}
+@media only screen and (max-width: 1555px){
+  /* Nav Bar */
+  .topnav{
+    position: relative;
+  }
 }
 
 /* Media Query Phones */
@@ -63,12 +59,12 @@
   }
   .NavLinks a {
     padding: 10px 8px;
-    font-size: 16px;
-    padding: 10px 7px;
+    font-size: 19px;
+    padding: 15px 8px;
   }   
   .HomeNav a {
     font-size: 20px;
-    padding: 10px 15px;
+    padding: 15px 15px;
   }
 }
 
@@ -76,11 +72,11 @@
 @media only screen and (max-device-height: 635px) {
   /* Navigation Bar*/
   .NavLinks a {
-    padding: 10px 8px;
-    font-size: 14px;
+    padding: 15px 8px;
+    font-size: 16px;
   }   
   .HomeNav a {
-    font-size: 17px;
-    padding: 10px 15px;
+    font-size: 17.5px;
+    padding: 15px 15px;
   }
 }

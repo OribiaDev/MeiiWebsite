@@ -37,7 +37,7 @@ const privacyPolicy = () => {
             <div className={ppstyles.bodybubble}>
                 <br />
                 <div className={ppstyles.bubbletitle}>Privacy Policy</div>
-                <div className={ppstyles.bodybubblecen}>Last Updated: 4/10/2023</div>
+                <div className={ppstyles.bodybubblecen}>Last Updated: 7/16/2023</div>
                 <br />
                 <br />
                 <p>
@@ -55,7 +55,7 @@ const privacyPolicy = () => {
                     scope required for the development, testing, and implementation of
                     features for Bot. Data is not sold, provided to, or shared with any third
                     party, except where required by law or a Terms of Service agreement. You
-                    can view the data upon request from ᴏʀɪʙɪᴀ#8440 or our{" "}
+                    can view the data upon request from <i>oribia.dev</i> on Discord or our{" "}
                     <a
                         href="https://discord.meiibot.xyz"
                         target="_blank"
@@ -118,7 +118,7 @@ const privacyPolicy = () => {
                 </p>
                 <p>
                     If you have any questions or are concerned about what data might be being
-                    stored from your account contact ᴏʀɪʙɪᴀ#8440 or the{" "}
+                    stored from your account contact <i>oribia.dev</i> on Discord or join the{" "}
                     <a
                         href="https://discord.meiibot.xyz"
                         target="_blank"

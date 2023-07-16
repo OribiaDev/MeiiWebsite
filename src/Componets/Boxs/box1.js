@@ -4,9 +4,10 @@ const box1 = () => {
         <div id="Meii?" class="box1">
             <div class = "box1background">
                 <br />   
-                <h1> What is Meii? </h1>
+                <h1> What is Meii?</h1>
                 <hr />
-                <p>Meii is a multipurpose, gif emote, confession, and moderation bot powered by Discord that currently features an in-depth and simple anonymous confession system with logging thats not hidden behind a pay or vote wall, tons of gif emotes, moderation features,  fun activities and more!</p>
+                <p>Meii is a multipurpose Discord bot that offers a range of features including gif emotes, anonymous confession system with logging, moderation tools, fun activities, and more. It provides an in-depth and user-friendly experience without requiring payment or voting.</p>
+                <br />
                 <br />
             </div>
         </div>

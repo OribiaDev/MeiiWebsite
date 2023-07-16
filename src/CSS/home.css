@@ -1,32 +1,32 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar {
-    background-color: transparent;
-    display: none;
+  background-color: transparent;
+  display: none;
 }
 
 /* BOT LISTINGS */
 hr {
-    display: block;
-    height: 5px;
-    border: 0;
-    border-top: 2px solid #ccc;
-    margin: auto;
-    padding: 0;
-    width: 80%;
+  display: block;
+  height: 5px;
+  border: 0;
+  border-top: 2px solid #ccc;
+  margin: auto;
+  padding: 0;
+  width: 80%;
 }
 
 /* Transparent Line */
 .transhr hr {
-    display: block;
-    height: 5px;
-    border: 0;
-    border-top: 2px solid #cccccc81;
-    margin: auto;
-    padding: 0;
-    width: 80%;
+  display: block;
+  height: 5px;
+  border: 0;
+  border-top: 2px solid #cccccc81;
+  margin: auto;
+  padding: 0;
+  width: 80%;
 }
 
 /* Animations */
@@ -37,26 +37,38 @@ hr {
 
 .bodybubble{
   background-color: rgba(255, 255, 255, .15); 
-    backdrop-filter: blur(5px);
-    margin: auto;
-    border-radius: 25px;
-    width: 25%;
-    margin-top: 2%;
+  border: 1px solid rgba(255, 255, 255, .05); 
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+  backdrop-filter: blur(5px);
+  margin: auto;
+  border-radius: 25px;
+  width: 25%;
+  margin-top: 2%;
+  margin-bottom: 210px;
 }
 
 .bodybubble p {
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    font-size: 16px;
-    cursor: default;
-    letter-spacing: 0.01em;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 16px;
+  cursor: default;
+  letter-spacing: 0.01em;
+}
+
+.bodybubble p#Invite {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.bodybubble p#Server {
+  margin-top: 20px;
 }
 
 .logoimg{
-    display: block;
-    width: fit-content;
-    margin: auto;
+  display: block;
+  width: fit-content;
+  margin: auto;
 }
 
 img {
@@ -80,52 +92,53 @@ img {
 }
 
 .topembed{
-    animation: FadeIn 0.3s 1.5s forwards;
-    animation-play-state: running;
-    height: 150px;
-    opacity: 0%;
+  animation: FadeIn 0.3s 1.5s forwards;
+  animation-play-state: running;
+  height: 150px;
+  opacity: 0%;
+  padding-top: 15px;
 }
 
-
 .bubbletitle {
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    color: white;
-    filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
-    letter-spacing: 0.01em;
-    font-size: 55px;
-    cursor: default;
-    transition: 0.2s;
-    width: fit-content;
-    margin: auto;
+  padding-top: 35px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: white;
+  filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
+  letter-spacing: 0.01em;
+  font-size: 55px;
+  cursor: default;
+  transition: 0.2s;
+  width: fit-content;
+  margin: auto;
 }
 
 .bodybubble hr {
-    display: block;
-    height: 5px;
-    border: 0;
-    border-top: 2px solid #cccccc7a;
-    margin: auto;
-    padding: 0;
-    width: 70%;
+  display: block;
+  height: 5px;
+  border: 0;
+  border-top: 2px solid #cccccc7a;
+  margin: auto;
+  padding: 0;
+  width: 70%;
 }
 
 .bodybubble a:link {
-    color: rgb(195, 199, 248);
-    background-color: transparent;
-    text-decoration: none;
-    width: fit-content;
-    filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
-  }  
+  color: rgb(195, 199, 248);
+  background-color: transparent;
+  text-decoration: none;
+  width: fit-content;
+  filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
+}  
 
-  .bodybubble a:hover {
-    color:  rgb(225, 122, 221);
-    background-color: transparent;
-    filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
-    transition: 0.1s;
-  }
+.bodybubble a:hover {
+  color:  rgb(225, 122, 221);
+  background-color: transparent;
+  filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
+  transition: 0.08s;
+}
 
-  .bodybubble a:visited {
+.bodybubble a:visited {
   color:  rgb(195, 199, 248);
   background-color: transparent;
   text-decoration: none;
@@ -140,238 +153,135 @@ img {
 }
 
 .topembed{
-    display: block;
-    width: fit-content;
-    margin: auto;
-    height: 150px
-}
-
-/* Box 1 */
-.box1{
-    background-image: linear-gradient(to right, #f15f79, #b24592);
-    position: relative;
-    margin: auto;
-    border-radius: 25px;
-    width: 45%;
-}
-.box1 p {
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: .01em;
-    text-align: center;
-    color: rgb(228, 228, 228);
-    margin-left: 40px;
-    margin-right: 40px;
-    filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
-    font-size: 17px;
-}
-.box1 h1 {
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: .01em;
-    text-align: center;
-    color: white;
-    filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
-}
-
- /* Box 2 */
-.box2{
-    background-image: linear-gradient(to right, #f15f79, #b24592);
-    position: relative;
-    margin: auto;
-    border-radius: 25px;
-    width: 45%;
-}
-.box2 p {
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: .01em;
-    text-align: center;
-    color: white;
-    margin-left: 40px;
-    margin-right: 40px;
-    filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
-    font-size: 17px;
-}
-.box2 h1 {
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: .01em;
-    text-align: center;
-    color: white;
-    filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
-
-}
-
-.box2 h2{
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: .01em;
-    text-align: center;
-    color: white;
-    filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
-}
-
-.box2 a:link {
-    color:  rgb(195, 199, 248);
-    background-color: transparent;
-    text-decoration: none;
-    width: fit-content;
-    filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
-
-  }  
-
-  .box2 a:hover {
-    color: rgb(225, 122, 221);
-    background-color: transparent;
-    filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
-    transition: 0.1s;
-  }
-
-  .box2 a:visited {
-  color:  rgb(195, 199, 248);
-  background-color: transparent;
-  text-decoration: none;
-  filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
-}
-
-.box2 a:visited:hover {
-  color:  rgb(225, 122, 221);
-  background-color: transparent;
-  text-decoration: none;
-  filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
-}
-
-
-/* Box 3 */
-.box3{
-    background-image: linear-gradient(to right, #f15f79, #b24592);
-    position: relative;
-    margin: auto;
-    border-radius: 25px;
-    width: 45%;
-}
-.box3 p {
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: .01em;
-    text-align: center;
-    color: white;
-    margin-left: 40px;
-    margin-right: 40px;
-    filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
-    font-size: 17px;
-}
-.box3 h1 {
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: .01em;
-    text-align: center;
-    color: white;
-    filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
-}
-
-/* Command Boxs */
-.commandbox{
-    background-color: rgba(255, 255, 255, 0.878);
-    margin: auto;
-    border-radius: 20px;
-    width: 80%;
-}
-
-.commandbox p {
-    color: black;
-}
-
-/* Transparent Line */
-.transhr hr {
-    display: block;
-    height: 5px;
-    border: 0;
-    border-top: 2px solid #cccccc81;
-    margin: auto;
-    padding: 0;
-    width: 80%;
+  display: block;
+  width: fit-content;
+  margin: auto;
+  height: 150px
 }
 
 /* Platform Optimizations */
 /* Media Query For Laptops */
-@media only screen and (max-height: 850px) and (min-width: 420px){
+@media only screen and (max-width: 1650px){
   /* Widget */
   .widget{
-    max-width: 75%;
+    max-width: 95%;
   } 
+  /* Main Bubble */
+  .bodybubble{
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 1400px){
+  /* Widget */
+  .widget{
+    max-width: 90%;
+  } 
+  /* Main Bubble */
+  .bodybubble{
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 1200px){
+  /* Main Bubble */
+  .bodybubble{
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 1100px){
   /* Main Bubble */
   .bodybubble{
     width: 45%;
   }
 }
 
+@media only screen and (max-width: 950px){
+  /* Main Bubble */
+  .bodybubble{
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 850px){
+  /* Main Bubble */
+  .bodybubble{
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  /* Widget */
+  .widget{
+    max-width: 100%;
+  } 
+  /* Main Bubble */
+  .bodybubble{
+    width: 80%;
+  }
+}
+
 /* Media Query Phones */
 @media only screen and (max-device-width: 421px) {
-    /* Main Bubble */
-    .bodybubble{
-      width: 85%;
-      margin-top: 2%;
-    }
-    .center {
-      max-width: 70%;
-    }
-    .bodybubble p {
-      font-size: 14px;
-    }
-    .bubbletitle {
-      font-size: 32px;
-    }
-    .widget{
-      max-width: 70%;
-    } 
-    .topembed{
-      height: 105px;
-    } 
-    /* Box 1 */
-    .box1{
-      width: 85%;
-    }
-    .box1 p {
-      font-size: 14px;
-      text-align: left;
-    }
-    .box1 h1 {
-      font-size: 20px;
-    }
-    /* Box 2 */
-    .box2{
-      width: 85%;
-    }
-    .box2 p {
-      font-size: 14px;
-      text-align: left;
-    }
-    .box2 h1 {
-      font-size: 20px;
-    } 
-    .box2 h2{
-      font-size: 14.5px;
-    }
-    /* Box 3 */
-    .box3{
-      width: 85%;
-    }
-    .box3 h1 {
-      font-size: 20px;
-    }
-    .box3 p {
-      font-size: 13px;
-    }
-    /* Command Box's */
-    .commandbox{
-      width: 88%;
-   }
+  /* Main Bubble */
+  .bodybubble{
+    width: 90%;
+    margin-top: 2%;
+    margin-bottom: 120px;
+  }
+  .center {
+    max-width: 75%;
+  }
+  .bodybubble p {
+    font-size: 15px;
+  }
+  .bodybubble p#Invite {
+    font-size: 18px;
+  }
+  .bodybubble p#Server {
+    margin-top: 13px;
+  }
+  .bodybubble a {
+    margin-top: 0px;
+  }
+  .bubbletitle {
+    font-size: 40px;
+    padding-top: 17.5px;
+  }
+  .widget{
+    max-width: 85%;
+  } 
+  .topembed{
+    height: 105px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+  } 
+  .bodybubble hr {
+    width: 80%;
+  }
 }
 
 /* Media Query Extra Smaller Phones */
 @media only screen and (max-device-height: 635px) {
-    /* Box 2 */
-    .box2 h1{
-      font-size: 17px;
-    }
-    .box2 h2{
-      font-size: 14px;
-    }
+  .center {
+    max-width: 65%;
+  }
+  .bubbletitle {
+    font-size: 35px;
+  }
+  .bodybubble p#Invite {
+    font-size: 16px;
+  }
+  .bodybubble p#Server {
+    font-size: 14px;
+  }
+  .bodybubble p {
+    font-size: 14px;
+  }
+  .widget{
+    max-width: 80%;
+  } 
 }
 
 

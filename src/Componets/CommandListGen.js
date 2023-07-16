@@ -3,12 +3,13 @@ const commandList = ({commands}) => {
         <div className="commandList">
             {commands.map((command) => (                
             <><div className="commandbox" key={command.id}>
-                <br />
-                <p>
-                    <b>{command.commandName}</b>
+                <div className="commandtopmargin" />
+                <div className="commandtopmargin"></div>
+                <p id="commandname">
+                    {command.commandName}
                 </p>
                 <p>{command.commandDesc}</p>
-                <br />
+                <div className="commandtopmargin" />
             </div><br /></>
         ))}
         </div>

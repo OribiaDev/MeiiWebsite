@@ -37,7 +37,7 @@ const termsOfService = () => {
             <div className={tosstyles.bodybubble}>
                 <br />
                 <div className={tosstyles.bubbletitle}>Terms of Service</div>
-                <div className={tosstyles.bodybubblecen}>Last Updated: 4/10/2023</div>
+                <div className={tosstyles.bodybubblecen}>Last Updated: 7/16/2023</div>
                 <br />
                 <br />
                 <p>
@@ -104,7 +104,7 @@ const termsOfService = () => {
                     <b>Contact:</b>
                 </p>
                 <p>
-                    People may get in contact through e-mail at natelyleknight@gmail.com, or
+                    People may get in contact through Discord by adding <i>oribia.dev</i>, or
                     through the official{" "}
                     <a
                         href="https://discord.meiibot.xyz"
