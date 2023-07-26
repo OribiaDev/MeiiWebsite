@@ -10,15 +10,15 @@ const box2 = () => {
                 <br />
                 <h2>Sending a confession</h2>
                 <div class="transhr"><hr /></div>
-                <p>To submit a confession, message Meii with the word "confess" and follow the prompt and type the precise server name or unique ID (follow <a href="https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-"  target="_blank" rel="noopener noreferrer">this</a> tutorial for obtaining the ID) . Pay attention to spelling, capitalization, fonts, and emojis when providing the server name.</p>
+                <p>To submit a confession, use the command <b>/confess</b> in the server you wish to confess too. <b>No one</b> will be able to see you use the command.</p>
                 <br />
                 <h2>Setting a confession channel</h2>
                 <div class="transhr"><hr /></div>
-                <p> To submit a confession, you must set a confession channel using the command <b>/setconfesschannel [#channel]</b>. Meii requires a designated place to send confessions and will refuse to send them otherwise. Ensure Meii has permission to send messages in the channel to post the confessions. </p>
+                <p> To submit a confession, you must set a confession channel using the command <b>/set confession_channel [#channel]</b>. Meii requires a designated place to send confessions and will refuse to send them otherwise. Ensure Meii has permission to send messages in the channel to post the confessions. </p>
                 <br />
                 <h2>Setting a logging channel</h2>
                 <div class="transhr"><hr /></div>
-                <p>Meii is different from other confession bots because it doesn't require payment or voting to log confessions. Once a confession is sent, Meii will post a spoiled version of it in the specified logging channel. Set the confession logging channel with the command <b>/setconfesslogs [#channel]</b>, ensuring that Meii has permission to send messages there.</p>
+                <p>Meii is different from other confession bots because it doesn't require payment or voting to log confessions. Once a confession is sent, Meii will post a spoiled version of it in the specified logging channel. Set the confession logging channel with the command <b>/set confession_log_channel [#channel]</b>, ensuring that Meii has permission to send messages there.</p>
                 <br />
                 <br />
             </div>
