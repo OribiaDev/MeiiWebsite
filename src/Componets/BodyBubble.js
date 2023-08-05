@@ -6,7 +6,7 @@ const bodyBubble = () => {
             <br /> 
             <br />
             <div class="logoimg">
-                <img src="./Img/MeiiLogoRounded.png" alt="MeiiLogo" width="180px" height="180px" class="center" />
+                <img src="./Img/MeiiLogoRoundedPurpleNewBlack.png" alt="MeiiLogo" width="180px" height="180px" class="center" />
             </div>
             <div class="bubbletitle">Meii</div>
             <p id="Invite"><b><a href="https://discord.com/oauth2/authorize?client_id=1082401009206308945&permissions=2147576838&scope=applications.commands%20bot"  target="_blank" rel="noopener noreferrer">Invite Meii</a></b></p>
