@@ -19,7 +19,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />  
             <Route path="/terms-of-service" element={<TermsOfService />} /> 
-            <Route path="*" element={<Four04 />} />
+            <Route path="*" element={<Four04 />} status={404}/>
           </Routes>
         </div>
         <br />

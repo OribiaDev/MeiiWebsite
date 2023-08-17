@@ -37,7 +37,7 @@ const privacyPolicy = () => {
             <div className={ppstyles.bodybubble}>
                 <br />
                 <div className={ppstyles.bubbletitle}>Privacy Policy</div>
-                <div className={ppstyles.bodybubblecen}>Last Updated: 7/16/2023</div>
+                <div className={ppstyles.bodybubblecen}>Last Updated: 8/16/2023</div>
                 <br />
                 <br />
                 <p>
@@ -53,7 +53,7 @@ const privacyPolicy = () => {
                 <p>
                     Access to Data is only permitted to Bot's developers, and only in the
                     scope required for the development, testing, and implementation of
-                    features for Bot. Data is not sold, provided to, or shared with any third
+                    features for the Bot. Data is not sold, provided to, or shared with any third
                     party, except where required by law or a Terms of Service agreement. You
                     can view the data upon request from <i>oribia.dev</i> on Discord or our{" "}
                     <a
@@ -70,7 +70,7 @@ const privacyPolicy = () => {
                     <b>Storage of Data:</b>
                 </p>
                 <p>
-                    Data is stored in a MySQL database. The database is secured to prevent
+                    Data is stored in a MongoDB database. The database is secured to prevent
                     external access, however no guarantee is provided and the Bot owners
                     assume no liability for the unintentional or malicious breach of Data. In
                     the event of an unauthorised Data access, users will be notified through
@@ -81,8 +81,8 @@ const privacyPolicy = () => {
                     <b>Deletion of Data:</b>
                 </p>
                 <p>
-                    Data is unrecoverably deleted when the Bot leaves a server, the Bot owners
-                    assume no liability for the unintentional or intentional automatic
+                    Data is unrecoverably deleted when the Bot leaves a server or the data deletion command is used, the Bot owners
+                    assume no liability for the unintentional or intentional
                     deletion of Data.
                 </p>
                 <br />
@@ -91,7 +91,7 @@ const privacyPolicy = () => {
                 </p>
                 <p>
                     At any time, you have the right to request to view the Data pertaining to
-                    your Discord account. You may submit a request through the Discord{" "}
+                    your Discord server. You may submit a request through the Discord{" "}
                     <a
                         href="https://discord.meiibot.xyz"
                         target="_blank"
@@ -118,7 +118,7 @@ const privacyPolicy = () => {
                 </p>
                 <p>
                     If you have any questions or are concerned about what data might be being
-                    stored from your account contact <i>oribia.dev</i> on Discord or join the{" "}
+                    stored from your server contact <i>oribia.dev</i> on Discord or join the{" "}
                     <a
                         href="https://discord.meiibot.xyz"
                         target="_blank"
