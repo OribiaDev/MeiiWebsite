@@ -231,26 +231,32 @@ img {
     margin-bottom: 120px;
   }
   .center {
-    max-width: 75%;
+    max-width: 70%;
   }
   .bodybubble p {
     font-size: 15px;
   }
   .bodybubble p#Invite {
-    font-size: 18px;
+    font-size: 17px;
   }
+  .bodybubble a:link#Invite {
+    filter: drop-shadow(3px 3px 3px rgb(0,0,0,0.4));
+  }  
   .bodybubble p#Server {
     margin-top: 13px;
   }
+  .bodybubble a:link#Server {
+    filter: drop-shadow(3px 3px 3px rgb(0,0,0,0.4));
+  }  
   .bodybubble a {
     margin-top: 0px;
   }
   .bubbletitle {
-    font-size: 40px;
+    font-size: 35px;
     padding-top: 17.5px;
   }
   .widget{
-    max-width: 85%;
+    max-width: 82%;
   } 
   .topembed{
     height: 105px;
