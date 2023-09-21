@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const footer = () => {
     const copyrightyear = '2023';
-    const version = 'v3.3.1';
+    const version = 'v3.3.2';
 
 
     return ( 

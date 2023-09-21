@@ -3,17 +3,17 @@
   "name": "Offical website for the Discord bot Meii",
   "icons": [
     {
-      "src": "./img/MeiiLogoRounded.png",
+      "src": "./img/MeiiLogoPurpleRounded.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "./img/MeiiLogoRounded.png",
+      "src": "./img/MeiiLogoPurpleRounded.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "./img/MeiiLogoRounded.png",
+      "src": "./img/MeiiLogoPurpleRounded.png",
       "type": "image/png",
       "sizes": "512x512"
     }
