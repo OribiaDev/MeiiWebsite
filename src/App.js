@@ -19,6 +19,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />  
             <Route path="/terms-of-service" element={<TermsOfService />} /> 
+            <Route path="/invite" element={<meta http-equiv="refresh" content="0.1; url='https://discord.com/oauth2/authorize?client_id=1082401009206308945&permissions=2147773446&scope=applications.commands%20bot'" />} />
             <Route path="*" element={<Four04 />} status={404}/>
           </Routes>
         </div>

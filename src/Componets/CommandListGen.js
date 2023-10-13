@@ -1,4 +1,7 @@
 const commandList = ({commands}) => {
+
+    
+
     return ( 
         <div className="commandList">
             {commands.map((command) => (                
