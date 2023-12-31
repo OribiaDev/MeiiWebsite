@@ -1,0 +1,206 @@
+/* Animations */
+@keyframes InfoPop {
+    0% {transform: scale(0.98); opacity:50%;}
+    100% {transform: scale(1); opacity:100%;}
+}
+
+@keyframes FeaturePop {
+    0% {transform: scale(0.95);}
+    100% {transform: scale(1); opacity:100%;}
+}
+
+/* Home Page */
+.HomeContent{
+    font-family: 'Inter', sans-serif;
+}
+
+/* Info Bubble */
+.LayoutContainer{  
+    margin: auto;
+    padding-top: 40px;
+    width: 830px;
+}
+
+.InfoBubble{  
+    background: #232526; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right bottom,rgba(255, 255, 255, 0.15),rgba(255, 255, 2s55, 0.05)); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.15),rgba(255, 255, 255, 0.05)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 260px;
+    border-radius: 15px;
+    animation: InfoPop 0.2s;
+}
+
+.InfoImg{
+    margin: auto;
+    width: 150px;
+    padding-top: 55px;
+}
+
+.InfoColLeft{
+    float: left;
+    width: 60%;
+}
+  
+.InfoColRight{
+    float: right;
+    width: 30%;
+}
+
+.InfoContent{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.AltBoldText{
+    color: #B794F4;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.MainText{
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 28px;
+}
+
+.AltText{
+    padding-top: 10px;
+    color: #9497B3;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* Info Bubble Buttons */
+.infoButtonContainer{
+    display: flex;
+    column-gap: 10px;
+    padding-top: 30px;
+}
+
+.infoButton{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: 0.15s;
+}
+
+.infoButton#InfoMainButton{
+    background-color: #D6BCFA;
+    color: #252632;
+}
+
+.infoButton#InfoMainButton:hover{
+    background-color: rgb(193, 149, 254);
+}
+
+.infoButton#InfoAltButton{
+    background-color: transparent;
+    color: #D6BCFA;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.infoButton#InfoAltButton:hover{
+    background-color: #d6bcfa27;
+
+}
+
+/* Features */
+.InfoDividerHR hr{
+    height: 5px;
+    border: 0;
+    border-top: 1px solid #6061673e;
+    margin: auto;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.FeatureTitleContainer{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.FeatureTitleText{
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+    animation: FeaturePop 0.2s forwards;
+    animation-delay: 50ms;
+    opacity: 0%;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+/* Feature Boxes */
+.FeatureBubbleContainer{
+    padding-top: 20px;
+}
+
+.FeatureBubble{  
+    height: 250px;
+    border-radius: 15px;
+    animation: FeaturePop 0.2s forwards;
+    opacity: 0%;
+    width: 750px;
+    margin: auto;
+    color: white;
+}
+
+.FeatureBubble#first{
+    animation-delay: 100ms;
+}
+
+.FeatureBubble#second{
+    animation-delay: 150ms;
+}
+
+.FeatureBubble#third{
+    animation-delay: 200ms;
+}
+
+.FeatureColLeft{
+    float: left;
+    width: 50%;
+}
+  
+.FeatureColRight{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+.FPic{
+    margin-right: -10px;
+}
+
+.FTextContainer{
+    padding-top: 38px;
+    text-align: left;
+}
+
+.FTextContainer#CL{
+    padding-top: 46px;
+}
+
+.FTextContainer#GE{
+    padding-top: 80px;
+}
+
+.FTitle{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.FSubTitle{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.655);
+}
+
+
+.EndOfPageSpacer{
+    height: 200px;
+}

@@ -1,0 +1,34 @@
+/* Universal CSS */
+:root {
+    --bg: #17181F;
+    --bg-accent: #252632;
+    overflow-y: scroll;
+}
+
+body{
+    background-color: var(--bg);
+}
+
+.GenericLinkDeco{
+    text-decoration: none;
+    cursor: pointer;
+    height: fit-content;
+    width: fit-content;
+}
+
+/* ScrollBar */
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #c3b1e185;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #ad9dc7;
+}

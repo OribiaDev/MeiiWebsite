@@ -1,0 +1,70 @@
+.Invitebanner{
+    height: 230px;
+    background-color: #b69ae4af;
+    font-family: 'Inter', sans-serif;
+}
+
+.bcontentContainer{
+    padding-top: 60px;
+}
+
+.bText{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.BButtonContentContainer{
+    margin-left: -13px;
+}
+
+.bbuttonicon{
+    color: #5865F2;
+}
+
+.BButtonIconContainer{
+    margin-top: -3.5px;
+    margin-left: 30px;
+}
+
+.BannerButtonContainer{
+    margin-left: 00px;
+    margin: auto;
+    width: 10%;
+    padding: 10px;
+}
+
+.bannerInviteButton{
+    padding-top: 13px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.15s;
+    text-align: center;
+    transform: scale(1.2);
+    background-color: #ffffff;
+    color: #252632;
+}
+
+.BButtonText{
+    font-size: 15px;
+    margin-left: -8px;
+}
+
+.BannerButtonColLeft{
+    float: left;
+    width: 30%;
+}
+  
+.BannerButtonRight{
+    float: right;
+    width: 70%;
+}
+
+.bannerInviteButton:hover{
+    background-color: #e8dcfb;
+}

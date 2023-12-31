@@ -1,0 +1,65 @@
+.footer{
+    height: 330px;
+    font-family: 'Inter', sans-serif;
+}
+
+.footerContentContainer{
+   padding-left: 420px; 
+   padding-top: 60px;
+}
+
+.logoImg{
+    padding-bottom: 25px;
+}
+
+.logoText{
+    color: #d8dbf185;
+    width: 48%;
+    padding-bottom: 80px;
+}
+
+.copyrightContent{
+    color: #d8dbf13a;
+}
+
+.footerColLeft{
+    float: left;
+    width: 42%;
+}
+  
+.footerColRight{
+    float: right;
+    width: 50%;
+}
+
+.LCContainer{
+    margin-top: -3px;
+    display: flex;
+    padding-left: 200px;
+}
+
+.linkColumn{
+    padding-right: 90px;
+}
+
+.LCTitle{
+    color: white;
+    font-size: 17px;
+}
+
+.LCLinkContainer{
+    display:grid;
+}
+
+.LCLinkDiv{
+    padding-top: 20px;
+}
+
+.GenericLinkDeco#LC{
+    color: #e2e3f1a4;
+    font-size: 15px;
+}
+
+.GenericLinkDeco#LC:hover{
+    color: #C3B1E1;
+}
