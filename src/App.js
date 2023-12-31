@@ -1,37 +1,35 @@
 //Packages
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
-//WebPages
-import Home from "./WebPages/Home";
-import Four04 from "./WebPages/404";
-import PrivacyPolicy from "./WebPages/privacy-policy";
-import TermsOfService from "./WebPages/terms-of-service";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 //Componets
-import Footer from "./Componets/footer";
+import NavBar from "./Components/NavBar";
+import Home from './WebPages/Home';
+import InviteBanner from './Components/InviteBanner';
+import Footer from './Components/Footer';
+
+//Pages
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <div className="content">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/privacy-policy" element={<PrivacyPolicy />} />  
-            <Route path="/terms-of-service" element={<TermsOfService />} /> 
-            <Route path="/invite" element={<meta http-equiv="refresh" content="0.1; url='https://discord.com/oauth2/authorize?client_id=1082401009206308945&permissions=2147773446&scope=applications.commands%20bot'" />} />
-            <Route path="*" element={<Four04 />} status={404}/>
-          </Routes>
-        </div>
-        <br />
-        <br />
-        <br />
-        <br />
+        <div className='content'>
+        <NavBar/>
+        <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="/commands" element={<h1>commands</h1>} />
+          <Route path="/privacy-policy" element={<h1>PP</h1>} />
+          <Route path="/terms-of-service" element={<h1>TOS</h1>} />
+          <Route path="/discord" element={<h1>discord server</h1>} />
+          <Route path="/invite" element={<h1>bot invite</h1>} />
+          <Route path="*" element={<h1>404</h1>} status={404}/>
+        </Routes>
+        <InviteBanner />
         <Footer />
+        </div>
       </div>
     </Router>
   );
 }
 
 export default App;
-
