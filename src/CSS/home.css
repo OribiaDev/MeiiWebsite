@@ -1,0 +1,295 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  background-color: transparent;
+  display: none;
+}
+
+/* BOT LISTINGS */
+hr {
+  display: block;
+  height: 5px;
+  border: 0;
+  border-top: 2px solid #ccc;
+  margin: auto;
+  padding: 0;
+  width: 80%;
+}
+
+/* Transparent Line */
+.transhr hr {
+  display: block;
+  height: 5px;
+  border: 0;
+  border-top: 2px solid #cccccc81;
+  margin: auto;
+  padding: 0;
+  width: 80%;
+}
+
+/* Animations */
+@keyframes FadeIn {
+  0% {opacity:0%;}
+  100% {opacity:100%;}
+}
+
+.bodybubble{
+  background-color: rgba(255, 255, 255, .15); 
+  border: 1px solid rgba(255, 255, 255, .05); 
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+  backdrop-filter: blur(5px);
+  margin: auto;
+  border-radius: 25px;
+  width: 25%;
+  margin-top: 2%;
+  margin-bottom: 210px;
+}
+
+.bodybubble p {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 16px;
+  cursor: default;
+  letter-spacing: 0.01em;
+}
+
+.bodybubble p#Invite {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.bodybubble p#Server {
+  margin-top: 20px;
+}
+
+.logoimg{
+  display: block;
+  width: fit-content;
+  margin: auto;
+}
+
+img {
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+.widget{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  width: fit-content;
+}
+
+.topembed{
+  animation: FadeIn 0.3s 1.5s forwards;
+  animation-play-state: running;
+  height: 150px;
+  opacity: 0%;
+  padding-top: 15px;
+}
+
+.bubbletitle {
+  padding-top: 35px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: white;
+  filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
+  letter-spacing: 0.01em;
+  font-size: 55px;
+  cursor: default;
+  transition: 0.2s;
+  width: fit-content;
+  margin: auto;
+}
+
+.bodybubble hr {
+  display: block;
+  height: 5px;
+  border: 0;
+  border-top: 2px solid #cccccc7a;
+  margin: auto;
+  padding: 0;
+  width: 70%;
+}
+
+.bodybubble a:link {
+  color: rgb(195, 199, 248);
+  background-color: transparent;
+  text-decoration: none;
+  width: fit-content;
+  filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
+}  
+
+.bodybubble a:hover {
+  color:  rgb(225, 122, 221);
+  background-color: transparent;
+  filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
+  transition: 0.08s;
+}
+
+.bodybubble a:visited {
+  color:  rgb(195, 199, 248);
+  background-color: transparent;
+  text-decoration: none;
+  filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
+}
+
+.bodybubble a:visited:hover {
+  color:  rgb(225, 122, 221);
+  background-color: transparent;
+  text-decoration: none;
+  filter: drop-shadow(4px 4px 4px rgb(0,0,0,0.4));
+}
+
+.topembed{
+  display: block;
+  width: fit-content;
+  margin: auto;
+  height: 150px
+}
+
+/* Platform Optimizations */
+/* Media Query For Laptops */
+@media only screen and (max-width: 1650px){
+  /* Widget */
+  .widget{
+    max-width: 95%;
+  } 
+  /* Main Bubble */
+  .bodybubble{
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 1400px){
+  /* Widget */
+  .widget{
+    max-width: 90%;
+  } 
+  /* Main Bubble */
+  .bodybubble{
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 1200px){
+  /* Main Bubble */
+  .bodybubble{
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 1100px){
+  /* Main Bubble */
+  .bodybubble{
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 950px){
+  /* Main Bubble */
+  .bodybubble{
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 850px){
+  /* Main Bubble */
+  .bodybubble{
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  /* Widget */
+  .widget{
+    max-width: 100%;
+  } 
+  /* Main Bubble */
+  .bodybubble{
+    width: 80%;
+  }
+}
+
+/* Media Query Phones */
+@media only screen and (max-device-width: 421px) {
+  /* Main Bubble */
+  .bodybubble{
+    width: 90%;
+    margin-top: 2%;
+    margin-bottom: 120px;
+  }
+  .center {
+    max-width: 70%;
+  }
+  .bodybubble p {
+    font-size: 15px;
+  }
+  .bodybubble p#Invite {
+    font-size: 17px;
+  }
+  .bodybubble a:link#Invite {
+    filter: drop-shadow(3px 3px 3px rgb(0,0,0,0.4));
+  }  
+  .bodybubble p#Server {
+    margin-top: 13px;
+  }
+  .bodybubble a:link#Server {
+    filter: drop-shadow(3px 3px 3px rgb(0,0,0,0.4));
+  }  
+  .bodybubble a {
+    margin-top: 0px;
+  }
+  .bubbletitle {
+    font-size: 35px;
+    padding-top: 17.5px;
+  }
+  .widget{
+    max-width: 82%;
+  } 
+  .topembed{
+    height: 105px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+  } 
+  .bodybubble hr {
+    width: 80%;
+  }
+}
+
+/* Media Query Extra Smaller Phones */
+@media only screen and (max-device-height: 635px) {
+  .center {
+    max-width: 65%;
+  }
+  .bubbletitle {
+    font-size: 35px;
+  }
+  .bodybubble p#Invite {
+    font-size: 16px;
+  }
+  .bodybubble p#Server {
+    font-size: 14px;
+  }
+  .bodybubble p {
+    font-size: 14px;
+  }
+  .widget{
+    max-width: 80%;
+  } 
+}
+
+
+
+
