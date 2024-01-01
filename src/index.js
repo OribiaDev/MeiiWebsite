@@ -8,6 +8,7 @@ import './CSS/Components/NavBar.css'
 import './CSS/Pages/Home.css'
 import './CSS/Components/InviteBanner.css'
 import './CSS/Components/Footer.css'
+import './CSS/Pages/Commands.css'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

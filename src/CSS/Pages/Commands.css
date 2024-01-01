@@ -1,0 +1,50 @@
+/* Commands Page */
+.CommandsContent{
+    font-family: 'Inter', sans-serif;
+}
+
+.CommandsLayoutContainer{  
+    margin: auto;
+    padding-top: 40px;
+    width: 830px;
+}
+
+.CommandsSectionTitle{
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.901);
+}
+
+/* Command List */
+.CommandListContainer{
+    margin-top: 20px;
+    height: 250px;
+}
+
+.CommandBubble{
+    background: #232526; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right bottom,rgba(255, 255, 255, 0.15),rgba(255, 255, 2s55, 0.05)); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.15),rgba(255, 255, 255, 0.05)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 10px;
+    margin-bottom: 5px;
+    width: 500px;
+    margin-left: 180px;
+}
+
+.CommandBubbleTitle{
+    color: white;
+    text-align: left;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.CBubbleContentContainer{
+    padding-left: 15px;
+}
+
+.CommandBubbleDesc{
+    padding-bottom: 5px;
+    color: white;
+}
