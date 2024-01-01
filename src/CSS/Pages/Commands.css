@@ -17,6 +17,24 @@
     color: rgba(255, 255, 255, 0.901);
 }
 
+/* Command Filters */
+.CommandsFilterContainer{
+    display: flex;
+    margin-left: 180px;
+}
+
+.FilterTitle{
+    color: white;
+}
+
+.FilterButton{
+    margin-right: 30px;
+    background-color: aqua;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 /* Command List */
 .CommandListContainer{
     margin-top: 20px;
@@ -31,6 +49,12 @@
     margin-bottom: 5px;
     width: 500px;
     margin-left: 180px;
+}
+
+.CommandBubble#inactive{
+    opacity: 0;
+    visibility: hidden;
+    display: none;
 }
 
 .CommandBubbleTitle{

@@ -1,31 +1,17 @@
 import { useState } from "react";
-import CommandListGen from '../Components/CommandListGen';
+import CommandBoxGen from '../Components/CommandBoxGen';
 
 const Commands = () => {
     const [commands] = useState([
-        {commandName: '/help', see:"helpSee", set:"helpSet", id: 1},
-        {commandName: '/rah', see:"rahSee", set:"rahSet", id: 2}
+        {commandName: '/help', filter:"help", id: 1},
+        {commandName: '/rah', filter:"rah", id: 2}
     ])
+
     return ( 
         <div className="CommandsContent">
             <div className="CommandsLayoutContainer">
                 <div className="CommandsSectionTitle">Commands</div>
-                <div className="CommandListContainer">
-                    {/* <div className="CommandBubble">
-                        <div className="CBubbleContentContainer">
-                            <div className="CommandBubbleTitle">/Rahh</div>
-                            <div className="CommandBubbleDesc">The Rahh Command does very good things</div>   
-                        </div>
-                    </div>  
-                    <div className="CommandBubble">
-                        <div className="CBubbleContentContainer">
-                            <div className="CommandBubbleTitle">/Rahh</div>
-                            <div className="CommandBubbleDesc">The Rahh Command does very good things</div>   
-                        </div>
-                    </div>   */}
-
-                    <CommandListGen commands={commands}/>
-                </div>
+                <CommandBoxGen commands={commands}/>
             </div>
             <br />
             <br />
