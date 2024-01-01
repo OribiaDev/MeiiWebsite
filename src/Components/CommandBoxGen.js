@@ -1,35 +1,25 @@
 import { useState } from "react";
 
-const CommandBoxGen = ({commands}) => {  
+const CommandBoxGen = ({commands, filters}) => {  
 
     const [selectedCommand, setSelectedCommand] = useState(null);
     const [selectedFilter, setSelectedFilter] = useState('all');
 
-
     const handleClickCommand = (commandId) => {
         setSelectedCommand(commandId === selectedCommand ? null : commandId);
     };
-
     const handleClickFilter = (filter) => {
         setSelectedFilter(filter === selectedFilter ? 'all' : filter);
-        console.log(selectedFilter)
     };
 
-
-
-      //To add filter system, do the same thing with useState with filter buttons, type of filter goes into use state and the map then checks if the filter matches command.filter, if it does its active (same as dropdown), if not hidden
     return ( 
         <div className="CommandBoxContainer">
-            <div className="CommandsFilterContainer"> 
-                <div className="FilterButton" onClick={() => handleClickFilter('all')}>
-                    <div className="FilterTitle">All</div>
-                </div>
-                <div className="FilterButton" onClick={() => handleClickFilter('help')}>
-                    <div className="FilterTitle">Help</div>
-                </div>
-                <div className="FilterButton" onClick={() => handleClickFilter('rah')}>
-                    <div className="FilterTitle">Rahh</div>
-                </div>
+            <div className="CommandsFilterContainer">
+                {filters.map((filter) => (
+                    <div className="FilterButton" id={`${filter.filterID === selectedFilter ? "selected" : "" }`} onClick={() => handleClickFilter(filter.filterID)} key={filter.id}>
+                        <div className="FilterTitle">{filter.filterName}</div>
+                    </div>
+                ))}
             </div>
             <div className="CommandListContainer">
                 {commands.map((command) => (
