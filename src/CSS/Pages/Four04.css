@@ -1,0 +1,54 @@
+/* Animations */
+@keyframes Four04Pop {
+    0% {transform: scale(0.98); opacity:50%;}
+    100% {transform: scale(1); opacity:100%;}
+}
+
+/* Four04 */
+.Four04Container{
+    font-family: 'Inter', sans-serif;
+    padding-top: 40px;
+    width: 500px;
+    padding-bottom: 500px;
+    margin: auto;
+}
+
+.Four04Bubble{
+    animation: Four04Pop 0.2s forwards;
+    opacity: 0%;
+    background-color: #252632; 
+    border-radius: 20px;
+    padding-top: 13px;
+    padding-bottom: 30px;
+}
+
+.Four04TextContainer{
+    text-align: center;
+}
+
+.Four04Title{
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 5;
+
+}
+
+.Four04SubTitle{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.Four04SubSubTitle{
+    color: #9497B3;
+    font-size: 15px;
+    font-style: italic;
+    padding-top: 15px;
+}
+
+.Four04ButtonContainer{
+    padding-top: 25px;
+    width: fit-content;
+    margin: auto;
+}

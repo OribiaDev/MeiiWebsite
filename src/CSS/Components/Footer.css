@@ -4,41 +4,51 @@
 }
 
 .footerContentContainer{
-   padding-left: 420px; 
-   padding-top: 60px;
+    margin: auto;
+    width: fit-content;
+    height: 330px;
+    padding-top: 50px;
+    display: flex;
+    column-gap: 400px;
+}
+
+.leftContentContainer{
+    padding-left: -120px;
 }
 
 .logoImg{
     padding-bottom: 25px;
+    width: fit-content;
 }
 
 .logoText{
     color: #d8dbf185;
-    width: 48%;
+    width: 78%;
     padding-bottom: 80px;
 }
 
 .copyrightContent{
     color: #d8dbf13a;
+    width: fit-content;
 }
 
 .footerColLeft{
     float: left;
-    width: 42%;
+    width: 32%;
 }
   
 .footerColRight{
     float: right;
-    width: 50%;
+    width: 30%;
 }
 
 .LCContainer{
     margin-top: -3px;
     display: flex;
-    padding-left: 200px;
+    float: right;
 }
 
-.linkColumn{
+.linkColumn#Space{
     padding-right: 90px;
 }
 
@@ -62,4 +72,31 @@
 
 .GenericLinkDeco#LC:hover{
     color: #C3B1E1;
+}
+
+/* Platform Optimizations */
+
+/* Media Query For Laptops */
+@media only screen and (max-width: 1160px){
+    .footerContentContainer{
+        column-gap: 200px;
+    }
+}    
+
+@media only screen and (max-width: 950px){
+    .footerContentContainer{
+        column-gap: 100px;
+    }
+}    
+
+@media only screen and (max-width: 850px){
+    .footerContentContainer{
+        column-gap: 50px;
+    }
+} 
+
+@media only screen and (max-width: 780px){
+    .footerContentContainer{
+        column-gap: 0px;
+    }
 }

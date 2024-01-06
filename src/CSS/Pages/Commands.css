@@ -28,7 +28,7 @@
 
 .CommandsSectionTitle{
     text-align: center;
-    color: white;
+    color: #E4E4E5;
     font-size: 26px;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.901);
@@ -40,6 +40,7 @@
     flex-wrap: wrap;
     margin-top: 20px;;
     margin-left: 200px;
+    z-index: -1;
 }
 
 
@@ -85,9 +86,7 @@
 
 
 .CommandBubble{
-    background: #232526; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right bottom,rgba(255, 255, 255, 0.15),rgba(255, 255, 2s55, 0.05)); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.15),rgba(255, 255, 255, 0.05)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #252632;
     border-radius: 10px;
     margin-bottom: 15px;
     transition: 120ms ease;
@@ -106,9 +105,7 @@
 
 
 .CommandBubbleExpanded{
-    background: #232526; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right bottom,rgba(255, 255, 255, 0.15),rgba(255, 255, 2s55, 0.05)); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.15),rgba(255, 255, 255, 0.05)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #252632;
     border-radius: 10px;
     margin-bottom: 15px;
     transition: 120ms ease;
@@ -152,7 +149,7 @@
 }
 
 .CommandBubbleTitle{
-    color: white;
+    color: #E4E4E5;
     text-align: left;
     padding-top: 9px;
     font-weight: 600;
@@ -189,7 +186,7 @@
 }
 
 .CommandBubbleField{
-    color: white;
+    color: #E4E4E5;
     margin-top: 13px;
 }
 
