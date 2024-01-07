@@ -1,8 +1,16 @@
 import { Link } from 'react-router-dom';
+import { Helmet } from "react-helmet";
 
 const TOS = () => {
     return ( 
         <div className="TOSContainer">
+            <Helmet>
+                <title>Terms Of Service • Meii</title>
+                <meta property="og:title" content="Terms Of Service • Meii" />
+                <meta name="description" content="Terms Of Service for Meii." />
+                <meta property="og:description" content="Terms Of Service for Meii." />
+                <meta property="og:url" content="meiibot.xyz/terms-of-service" />
+            </Helmet>
             <div className="TOSBubble">
                 <div className="TOSTitle">Terms Of Service</div>
                 <div className="TOSSubTitle">Last Updated: 01/06/2024</div>

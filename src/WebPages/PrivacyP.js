@@ -1,8 +1,16 @@
 import { Link } from 'react-router-dom';
+import { Helmet } from "react-helmet";
 
 const PrivacyP = () => {
     return ( 
         <div className="PrivacyPContainer">
+            <Helmet>
+                <title>Privacy Policy • Meii</title>
+                <meta property="og:title" content="Privacy Policy • Meii" />
+                <meta name="description" content="Privacy Policy for Meii." />
+                <meta property="og:description" content="Privacy Policy for Meii." />
+                <meta property="og:url" content="meiibot.xyz/privacy-policy" />
+            </Helmet>
             <div className="PrivacyPBubble">
                 <div className="PrivacyPTitle">Privacy Policy</div>
                 <div className="PrivacyPSubTitle">Last Updated: 01/06/2024</div>

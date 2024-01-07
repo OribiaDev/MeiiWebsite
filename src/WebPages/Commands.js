@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Helmet } from "react-helmet";
 
 const Commands = () => {
     
@@ -63,6 +64,13 @@ const Commands = () => {
     
     return ( 
         <div className="CommandsContent">
+            <Helmet>
+                <title>Commands • Meii</title>
+                <meta property="og:title" content="Commands • Meii" />
+                <meta name="description" content="The commands list for Meii." />
+                <meta property="og:description" content="The commands list for Meii." />
+                <meta property="og:url" content="meiibot.xyz/commands" />
+            </Helmet>
             <div className="CommandsLayoutContainer">
                 <div className="CommandBoxContainer">
                 <div className="CommandAltAnimationHandler"> 
@@ -77,14 +85,14 @@ const Commands = () => {
                 </div>
                 <div className="CommandListContainer">
                     {commands.map((command, index) => (
-                        <div className="CommandBubbleAnimationHandler" style={{ animationDelay: `${25 * index}ms` }}>
+                        <div className="CommandBubbleAnimationHandler" style={{ animationDelay: `${25 * index}ms` }} key={command.id}>
                             <div className={`${command.id === selectedCommand ? "CommandBubbleExpanded" : "CommandBubble" }`} id={`${command.filter === selectedFilter || 'all' === selectedFilter ? "" : "inactive" }`} key={command.id} onClick={() => handleClickCommand(command.id)}>
                                 <div className="CommandBubbleInsideContainer">
                                     <div className="CommandBubbleNonExpandedContainer">
                                         <div className="CommandBubbleTitleContainer">
                                             <div className="CommandBubbleTitle">{command.commandName}</div>
                                             <div className="CommandBubbleExpandArrow" id={`menuButton_${command.id === selectedCommand ? 'active' : 'inactive'}`}>
-                                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="dropdownIcon" id={`dropdownIcon_${command.id === selectedCommand ? 'active' : 'inactive'}`}><path d="M7 14.5l5-5 5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="dropdownIcon" id={`dropdownIcon_${command.id === selectedCommand ? 'active' : 'inactive'}`}><path d="M7 14.5l5-5 5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path></svg>
                                             </div>
                                         </div>
                                         <div className="CommandBubbleDesc">{command.commandDesc}</div>

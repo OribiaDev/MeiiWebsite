@@ -1,8 +1,16 @@
 import { Link } from 'react-router-dom';
+import { Helmet } from "react-helmet";
 
 const Four04 = () => {
     return ( 
         <div className="Four04Container">
+            <Helmet>
+                <title>404 • Meii</title>
+                <meta property="og:title" content="404 • Meii" />
+                <meta name="description" content="404 Page Not Found" />
+                <meta property="og:description" content="404 Page Not Found" />
+                <meta property="og:url" content="meiibot.xyz/404" />
+            </Helmet>
             <div className="Four04Bubble">
                 <div className="Four04TextContainer">
                     <div className="Four04Title">404</div>

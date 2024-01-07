@@ -1,18 +1,18 @@
 //Packages
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
-//Componets
-import NavBar from "./Components/NavBar";
+//Pages
 import Home from './WebPages/Home';
-import InviteBanner from './Components/InviteBanner';
-import Footer from './Components/Footer';
 import Commands from './WebPages/Commands';
-import Redirect from './Components/Redirect';
 import Four04 from './WebPages/Four04';
+import Redirect from './Components/Redirect';
 import TOS from './WebPages/TOS';
 import PrivacyP from './WebPages/PrivacyP';
 
-//Pages
+//Componets
+import NavBar from "./Components/NavBar";
+import InviteBanner from './Components/InviteBanner';
+import Footer from './Components/Footer';
 
 function App() {
   return (

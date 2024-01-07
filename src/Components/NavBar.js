@@ -53,7 +53,7 @@ const NavBar = () => {
                             </div>              
                         </Link>  
                         <div className="navButton" id={`menuButton_${dropdownOpen? 'active' : 'inactive'}`} onClick={() => setDropdownOpen(!dropdownOpen)} ref={buttonRef}>
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="dropdownIcon" id={`dropdownIcon_${dropdownOpen? 'active' : 'inactive'}`}><path d="M7 14.5l5-5 5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="dropdownIcon" id={`dropdownIcon_${dropdownOpen? 'active' : 'inactive'}`}><path d="M7 14.5l5-5 5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path></svg>
                         </div>
                     </div>
                     <div className={`dropDownMenu ${dropdownOpen? 'active' : 'inactive'}`}>

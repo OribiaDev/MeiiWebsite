@@ -1,8 +1,16 @@
 import { Link } from 'react-router-dom';
+import { Helmet } from "react-helmet";
 
 const Home = () => {
     return ( 
         <div className="HomeContent">
+            <Helmet>
+                <title>Meii</title>
+                <meta property="og:title" content="Meii" />
+                <meta name="description" content="The best free Discord confession bot." />
+                <meta property="og:description" content="The best free Discord confession bot." />
+                <meta property="og:url" content="meiibot.xyz" />
+            </Helmet>
             <div className="LayoutContainer">
                 <div className="InfoBubble">
                     <div className="InfoColLeft">
