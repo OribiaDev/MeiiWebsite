@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from 'react-helmet-async';
 
 const Commands = () => {
     
@@ -61,7 +61,7 @@ const Commands = () => {
     const handleClickFilter = (filter) => {
         setSelectedFilter(filter === selectedFilter ? 'all' : filter);
     };
-    
+
     return ( 
         <div className="CommandsContent">
             <Helmet>
