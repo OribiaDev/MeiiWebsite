@@ -196,3 +196,16 @@
     border-top: 1px solid rgba(255, 255, 255, 0.015);
     margin-left: -20px;
 }
+
+/* Media Query Phones */
+@media only screen and (max-device-width: 421px) {
+    .navBarContainer{
+        column-gap: 31vw;
+    }
+    .navHome{
+        padding-top: 1px;
+        transform: scale(0.98);
+    }
+}
+
+

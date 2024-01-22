@@ -1,15 +1,14 @@
 .footer{
-    height: 330px;
+    height: 310px;
     font-family: 'Inter', sans-serif;
 }
 
 .footerContentContainer{
     margin: auto;
     width: fit-content;
-    height: 330px;
     padding-top: 50px;
     display: flex;
-    column-gap: 400px;
+    column-gap: 500px;
 }
 
 .leftContentContainer{
@@ -98,5 +97,40 @@
 @media only screen and (max-width: 780px){
     .footerContentContainer{
         column-gap: 0px;
+    }
+}
+
+
+/* Media Query Phones */
+@media only screen and (max-device-width: 421px) {
+    .linkColumn#Space{
+        padding-right: 25px;
+    }
+    .logoImg{
+         transform: scale(0.8);
+         padding-bottom: 5px;
+         margin-left: -5px;
+         margin-top: -5px;
+    }
+    .logoText{
+        font-size: 12px;
+        width: 180px;
+    }
+    .copyrightContent{
+        font-size: 13px;
+        width: 150px;
+        text-wrap: nowrap;
+    }
+    .LCTitle{
+        font-size: 11px;
+    }
+    .GenericLinkDeco#LC{
+        font-size: 10px;
+    }
+    .footer{
+        height: 250px;
+    }
+    .LCLinkDiv{
+        padding-top: 10px;
     }
 }

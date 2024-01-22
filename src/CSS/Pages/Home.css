@@ -200,3 +200,100 @@
 .EndOfPageSpacer{
     height: 200px;
 }
+
+/* Phones */
+@media only screen and (max-device-width: 421px) {
+    .LayoutContainer{  
+        margin: auto;
+        padding-top: 40px;
+        width: 95vw;
+    }
+    /* Info Bubble */
+    .InfoImg{
+        padding-top: 30px;
+        margin-left: -30px;
+        transform: scale(0.6);
+    }
+    .InfoContent{
+        margin-left: 0px;
+        margin-top: -20px;
+        transform: scale(0.8);
+    }
+    .AltBoldText{
+        margin-top: 20px;
+    } 
+    .MainText{
+        padding-top: 10px;
+        font-size: 20px;
+        text-wrap: nowrap;
+    }
+    .AltText{
+        padding-top: 10px;
+        font-size: 16px;
+    }
+    .infoButton{
+        text-wrap: nowrap;
+        transform: scale(1.1);
+    }
+    .infoButtonContainer{
+        column-gap: 30px;
+    }
+    .InfoBubble{  
+        height: 220px;
+    }
+    /* Features */
+    .FTitle{
+        font-size: 18px;
+        text-wrap: nowrap;
+    }
+    .FTitle#LongBoi{
+        font-size: 14.5px;
+    }
+    .FSubTitle{
+        font-size: 12px;
+    }
+    .FTextContainer{
+        width: 170px;
+        margin-left: -20px;
+        transform: scale(1);
+        margin-top: 5px;
+    }
+    .FTextContainer#CL{
+        width: 170px;
+        margin-left: 1px;
+        margin-top: 5px;
+    }
+    .FTextContainer#GE{
+        width: 180px;
+        margin-left: -15px;
+        transform: scale(1);
+        margin-top: 0px;
+    }
+    .FeatureBubble{  
+        width: 300px;
+        height: 180px;
+    }
+    .FPic{
+        transform: scale(0.55);
+        margin-left: -15px;
+        margin-top: 0px;
+    }
+    .FPic#CL{
+        margin-left: -68px;
+    }
+    .FPic#GE{
+        margin-left: -20px;
+    }
+    .FeatureBubbleContainer{
+        margin-top: -30px;
+    }
+    .FeatureTitleContainer{
+        margin-top: 10px;
+    }
+    .FeatureTitleText{
+        font-size: 21px;
+    }
+    .EndOfPageSpacer{
+        height: 100px;
+    }
+}

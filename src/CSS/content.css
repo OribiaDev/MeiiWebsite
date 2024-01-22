@@ -3,6 +3,7 @@
     --bg: #17181F;
     --bg-accent: #252632;
     overflow-y: scroll;
+    -webkit-tap-highlight-color: transparent;
 }
 
 body{

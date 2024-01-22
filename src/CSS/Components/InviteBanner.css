@@ -60,3 +60,20 @@
 .bannerInviteButton:hover{
     background-color: #e8dcfb;
 }
+
+/* Media Query Phones */
+@media only screen and (max-device-width: 421px) {
+    .bText{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .BannerButtonContainer{
+        transform: scale(0.75);
+    }
+    .Invitebanner{
+        height: 165px;
+    }
+    .bcontentContainer{
+        padding-top: 42px;
+    }
+}

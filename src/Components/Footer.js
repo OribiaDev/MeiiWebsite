@@ -12,7 +12,7 @@ const Footer = () => {
                         The best free and simple confession Discord bot
                     </div>
                     <div className="copyrightContent">
-                        Copyright © 2023 Oribia. All rights reserved
+                        Copyright © 2024 Oribia. All rights reserved
                     </div>
                 </div>
                 <div className="LCContainer">
@@ -31,7 +31,7 @@ const Footer = () => {
                             Developer
                         </div>
                         <div className="LCLinkContainer">
-                            <div className='LCLinkDiv'><Link to="https://oribia.dev" id='LC' className='GenericLinkDeco'>Personal Website</Link></div>
+                            <div className='LCLinkDiv'><Link to="https://oribia.dev" id='LC' className='GenericLinkDeco'>Portfolio</Link></div>
                             <div className='LCLinkDiv'><Link to="https://github.com/OribiaDev/" id='LC'className='GenericLinkDeco'>Github</Link></div>
                             <div className='LCLinkDiv'><Link to='mailto:support@oribia.dev' id='LC'className='GenericLinkDeco'>Contact</Link></div>
                         </div>

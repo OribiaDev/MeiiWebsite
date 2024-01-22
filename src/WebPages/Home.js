@@ -46,7 +46,7 @@ const Home = () => {
                     <div className="FeatureBubble" id='first'>
                         <div className="FeatureColLeft">
                             <div className='FTextContainer'>
-                                <div className='FTitle'>Anonymous Confessions</div>
+                                <div className='FTitle' id='LongBoi'>Anonymous Confessions</div>
                                 <div className='FSubTitle'>Send free and simple anonymous confessions to your server</div>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ const Home = () => {
                     </div>
                     <div className="FeatureBubble" id='second'>
                         <div className="FeatureColLeft">
-                            <div className='FPic'>
+                            <div className='FPic' id='CL'>
                                 <img rel="prefetch" src="./img/FeatureScreenshots/CLscreenshot.png" alt="Meii Confession Logging Screenshot" width="280px" height="168px"/>  
                             </div>
                         </div>
@@ -77,7 +77,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="FeatureColRight">
-                            <div className='FPic'>
+                            <div className='FPic' id='GE'>
                                 <img rel="prefetch" src="./img/FeatureScreenshots/GEscreenshot.png" alt="Meii GIF Emote Screenshot" width="280px" height="210px"/>  
                             </div>
                         </div>
