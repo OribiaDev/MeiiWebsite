@@ -17,7 +17,8 @@ const Redirect = ({ link }) => {
                 <meta property="og:url" content="meiibot.xyz" />
             </Helmet>
             <div className='MemeImage'><img rel="prefetch" src="./img/Memes/rickRoll.gif" alt="Rick Roll" width="380px" height="300px"/></div>
-            <div className='MemeText'>Never gonna give you up- :3</div>
+            <div className='RedirectingText'>Redirecting...</div>
+            <div className='MemeText'>never gonna give you up-</div>
         </div>
     );
 }

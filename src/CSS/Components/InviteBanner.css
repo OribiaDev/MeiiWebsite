@@ -64,11 +64,11 @@
 /* Media Query Phones */
 @media only screen and (max-device-width: 421px) {
     .bText{
-        font-size: 20px;
+        font-size: 19px;
         padding-bottom: 10px;
     }
     .BannerButtonContainer{
-        transform: scale(0.75);
+        transform: scale(0.73);
     }
     .Invitebanner{
         height: 165px;

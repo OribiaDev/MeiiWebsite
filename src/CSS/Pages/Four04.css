@@ -31,7 +31,6 @@
     font-size: 45px;
     font-weight: 600;
     padding-top: 5;
-
 }
 
 .Four04SubTitle{
@@ -51,4 +50,21 @@
     padding-top: 25px;
     width: fit-content;
     margin: auto;
+}
+
+/* Phones */
+@media only screen and (max-device-width: 421px) {
+    .Four04Container{
+        font-family: 'Inter', sans-serif;
+        padding-top: 40px;
+        width: 95vw;
+        padding-bottom: 500px;
+        margin: auto;
+    }
+    .Four04ButtonContainer{
+        transform: scale(0.9);
+    }
+    .Four04TextContainer{
+        text-align: center;
+    }
 }

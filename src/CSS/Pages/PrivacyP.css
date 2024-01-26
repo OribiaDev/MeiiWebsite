@@ -48,3 +48,15 @@
 #PrivacyPLink:hover{
     text-decoration: underline;
 }
+
+/* Phones */
+@media only screen and (max-device-width: 421px) {
+    .PrivacyPContainer{
+        width: 93vw;
+        margin: auto;    
+        font-family: 'Inter', sans-serif;
+    }
+    .PrivacyPTitle{
+        font-size: 23px;
+    }
+}

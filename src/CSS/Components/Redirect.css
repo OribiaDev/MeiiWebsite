@@ -10,12 +10,39 @@
     width: fit-content;
 }
 
-.MemeText{
-    padding-top: 30px;
+.RedirectingText{
+    padding-top: 15px;
     font-family: 'Inter', sans-serif;
     color: white;
     text-align: center;
-    font-size: 27px;
+    font-size: 18px;
+}
+
+.MemeText{
+    padding-top: 10px;
+    font-family: 'Inter', sans-serif;
+    color: rgba(255, 255, 255, 0.655);
+    text-align: center;
+    font-size: 23px;
     font-weight: 600;
     padding-bottom: 300px;
+    font-style: italic;
+}
+
+/* Phones */
+@media only screen and (max-device-width: 421px) {
+    .RedirectingText{
+        padding-top: 0px;
+    }
+    .MemeContainer{
+        width: 95vw;
+        padding: 0px;
+    }
+    .MemeImage{
+        transform: scale(0.7);
+    }
+    .MemeText{
+        padding-top: 0px;
+        font-size: 20px;
+    }
 }
