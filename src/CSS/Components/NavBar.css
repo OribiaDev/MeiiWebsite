@@ -198,7 +198,7 @@
 }
 
 /* Media Query Phones */
-@media only screen and (max-device-width: 421px) {
+@media only screen and (max-device-width: 435px) {
     .navBarContainer{
         column-gap: 31vw;
     }

@@ -53,7 +53,7 @@
 }
 
 /* Phones */
-@media only screen and (max-device-width: 421px) {
+@media only screen and (max-device-width: 435px) {
     .Four04Container{
         font-family: 'Inter', sans-serif;
         padding-top: 40px;

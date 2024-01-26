@@ -102,7 +102,7 @@
 
 
 /* Media Query Phones */
-@media only screen and (max-device-width: 421px) {
+@media only screen and (max-device-width: 435px) {
     .linkColumn#Space{
         padding-right: 25px;
     }
