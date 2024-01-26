@@ -38,10 +38,10 @@
 }
 
 .bannerInviteButton{
-    padding-top: 13px;
-    padding-bottom: 8px;
-    padding-left: 15px;
-    padding-right: px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 0px;
     border-radius: 10px;
     font-weight: 600;
     transition: 0.15s;
