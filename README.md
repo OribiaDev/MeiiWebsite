@@ -1,11 +1,11 @@
 <p align="center">
  <h2 align="center">MeiiWebsite</h2>
- <p align="center">MeiiWebsite is a website that's a hub for my Discord bot Meii. </p>
+ <p align="center">MeiiWebsite is the offical website for my Discord bot Meii.</p>
 </p>
 
 ## Description
 
-MeiiWebsite is the homepage for my discord bot Meii. It has useful tips and tricks with ways to invite Meii and see its full command list. This website is also hosted on my home web server and made with React.
+MeiiWebsite is the offical homepage for my Discord bot Meii. It has a command list, and various useful features. This website is also hosted on my home web server and made with React.
 
 ## Getting Started
 
@@ -46,7 +46,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Authors
 
-* [@Oribia_Dev](https://twitter.com/Oribia_Dev)
+* [OribiaDev](https://github.com/OribiaDev)
 
 ## License
 

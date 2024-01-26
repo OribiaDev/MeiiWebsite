@@ -34,3 +34,11 @@ body{
 ::-webkit-scrollbar-thumb:hover {
     background: #ad9dc7;
 }
+
+/* Media Query Phones */
+@media only screen and (max-device-width: 421px) {
+    ::-webkit-scrollbar {
+        width: 4px;
+        height: 0px;  
+    }
+}
