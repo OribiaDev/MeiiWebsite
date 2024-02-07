@@ -13,7 +13,7 @@ const TOS = () => {
             </Helmet>
             <div className="TOSBubble">
                 <div className="TOSTitle">Terms Of Service</div>
-                <div className="TOSSubTitle">Last Updated: 01/06/2024</div>
+                <div className="TOSSubTitle">Last Updated: 02/07/2024</div>
                 <div className="TOSText">
                     <p>
                         <b>Usage Agreement:</b>
@@ -45,7 +45,17 @@ const TOS = () => {
                     <p>
                         The bot may not be used by individuals under the minimal age described in
                         Discord's Terms of Service. Doing so will be seen as a violation of these
-                        terms and will result in a removal of the bot from any servers you own.
+                        terms and will result in moderation action.
+                    </p>
+                    <br />
+                    <p>
+                        <b>Abusive Use:</b>
+                    </p>
+                    <p>
+                        You may not use the bot, or any of its features (commands) in a abusive
+                        way. Including but not limited to, Harrasment, Hate Speech, Threatful
+                        And/or Harmful Comments, CSAM, or Violent Extremism. Doing so will be
+                        seen as a violation of these terms and will result in moderation action. 
                     </p>
                     <br />
                     <p>

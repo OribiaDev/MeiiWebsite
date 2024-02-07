@@ -22,7 +22,7 @@ const PrivacyP = () => {
                         The use of this application ("Bot") in a server requires the collection of
                         some specific user and server data ("Data"). The Data collected includes, but is not
                         limited to Discord server and channel ID values, and data collected for confession moderation purposes.
-                         Use of the Bot is considered an agreement to the terms of this Policy.
+                        Use of the Bot is considered an agreement to the terms of this Policy.
                     </p>
                     <br />
                     <p>
