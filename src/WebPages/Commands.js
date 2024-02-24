@@ -18,7 +18,7 @@ const Commands = () => {
     const [commands] = useState([
         {commandName: '/help', commandDesc:"A full list of Meii's commands", commandUsage:"/help", filter:"utility", id: 1},
         {commandName: '/confess', commandDesc:"Sends an anonymous confession", commandUsage:"/confess [confession_text]", filter:"confessions", id: 2},
-        {commandName: '/reply', commandDesc:"Anonymously replys to a sent confession", commandUsage:"/reply [confession_id] [confession_text]", filter:"confessions", id: 3},
+        {commandName: '/reply', commandDesc:"Anonymously replys to a sent confession", commandUsage:"/reply [confession_id] [reply_text]", filter:"confessions", id: 3},
         {commandName: '/delete', commandDesc:"Deletes a confession", commandUsage:"/delete [confession_id]", filter:"confessions", id: 4},
         {commandName: '/report', commandDesc:"Reports a confession", commandUsage:"/report [confession ID]", filter:"confessions", id: 5},
         {commandName: '/set confession_channel', commandDesc:"Sets the confession channel ", commandUsage:"/set confession_channel [#channel]", filter:"confessions", id: 6},
