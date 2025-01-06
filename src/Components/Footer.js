@@ -12,7 +12,7 @@ const Footer = () => {
                         The best free and simple confession Discord bot
                     </div>
                     <div className="copyrightContent">
-                        Copyright © 2024 Oribia. All rights reserved
+                        Copyright © 2025 Oribia. All rights reserved
                     </div>
                 </div>
                 <div className="LCContainer">
