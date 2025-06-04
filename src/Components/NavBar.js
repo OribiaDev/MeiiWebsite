@@ -38,7 +38,7 @@ const NavBar = () => {
                 <Link to='/' className="NavLinkHomeExtra">
                     <div className="navHome">
                         <div className="navHomeImg">
-                            <img src="./img/Logos/MeiiRoundedPurpleBorder.png" alt="MeiiLogo" width="32px" height="32px"/>
+                            <img src="./img/Logos/MeiiLogoOffical.png" alt="MeiiLogo" width="38px" height="38px"/>
                         </div>
                         <div className="navHomeMainText">
                             Meii

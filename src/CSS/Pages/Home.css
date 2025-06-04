@@ -32,8 +32,9 @@
 
 .InfoImg{
     margin: auto;
-    width: 150px;
-    padding-top: 55px;
+    width: 180px;
+    padding-top: 45px;
+    padding-left: 10px;
 }
 
 .InfoColLeft{
@@ -211,7 +212,7 @@
     /* Info Bubble */
     .InfoImg{
         padding-top: 30px;
-        margin-left: -30px;
+        margin-left: -61px;
         transform: scale(0.6);
     }
     .InfoContent{

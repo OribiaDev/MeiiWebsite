@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="footerContentContainer">
                 <div className="leftContentContainer">
                     <div className="logoImg">
-                        <img rel="prefetch" src="./img/Logos/MeiiRoundedPurpleBorder.png" alt="MeiiLogo" width="40px" height="40px"/>
+                        <img rel="prefetch" src="./img/Logos/MeiiLogoOffical.png" alt="MeiiLogo" width="45px" height="45px"/>
                     </div>  
                     <div className="logoText">
                         The best free and simple confession Discord bot
