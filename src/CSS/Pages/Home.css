@@ -194,7 +194,7 @@
 
 
 .EndOfPageSpacer{
-    height: 150px;
+    height: 100px;
 }
 
 /* Phones */
@@ -287,6 +287,6 @@
         margin-top: 10px;
     }
     .EndOfPageSpacer{
-        height: 100px;
+        height: 70px;
     }
 }
