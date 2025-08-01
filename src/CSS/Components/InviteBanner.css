@@ -11,8 +11,16 @@
 .bText{
     color: white;
     text-align: center;
-    padding-bottom: 20px;
     font-size: 30px;
+    font-weight: bold;
+}
+
+.cText{
+    color: rgba(255, 255, 255, 0.593);
+    text-align: center;
+    padding-bottom: 10px;
+    font-style: italic;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -64,9 +72,13 @@
 /* Media Query Phones */
 @media only screen and (max-device-width: 435px) {
     .bText{
-        font-size: 19px;
-        padding-bottom: 10px;
+        font-size: 16px;
     }
+    .cText{
+        font-size: 11px;
+        padding-bottom: 5px;
+    }
+    
     .BannerButtonContainer{
         transform: scale(0.73);
     }

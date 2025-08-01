@@ -4,7 +4,8 @@ const InviteBanner = () => {
     return ( 
         <div className="Invitebanner">
             <div className="bcontentContainer">
-                <div className="bText">Send the best confessions for free.</div>
+                <div className="bText">Send the best confessions 100% free.</div>
+                <div className="cText">Unlike other popular alternatives~</div>
                 <div className='BannerButtonContainer'>
                     <Link to='/invite' className='GenericLinkDeco'>
                         <div className="bannerInviteButton">
