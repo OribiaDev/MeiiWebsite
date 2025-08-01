@@ -120,11 +120,6 @@
     margin-top: 30px;
 }
 
-.FeatureTitleContainer{
-    margin-top: 25px;
-    margin-bottom: 20px;
-}
-
 .FeatureTitleText{
     text-align: center;
     color: #E4E4E5;
@@ -199,7 +194,7 @@
 
 
 .EndOfPageSpacer{
-    height: 200px;
+    height: 150px;
 }
 
 /* Phones */
@@ -290,9 +285,6 @@
     }
     .FeatureTitleContainer{
         margin-top: 10px;
-    }
-    .FeatureTitleText{
-        font-size: 21px;
     }
     .EndOfPageSpacer{
         height: 100px;

@@ -16,7 +16,7 @@ const Home = () => {
                     <div className="InfoColLeft">
                         <div className="InfoContent">
                                 <div className="AltBoldText">MEII</div>
-                                <div className="MainText">Confessions Reimagined.</div>
+                                <div className="MainText">Confessions- Completely Free.</div>
                                 <div className="AltText">Meii is a free and easy-to-use bot, where you can log and send anonymous confessions.</div>
                                 <div className="infoButtonContainer">
                                     <Link to="/invite" className='GenericLinkDeco'>
@@ -39,9 +39,6 @@ const Home = () => {
                     </div>
                 </div>
                 <div className='InfoDividerHR'><hr /></div>
-                <div className='FeatureTitleContainer'>
-                    <div className='FeatureTitleText'>Features:</div>
-                </div>
                 <div className='FeatureBubbleContainer'>
                     <div className="FeatureBubble" id='first'>
                         <div className="FeatureColLeft">
