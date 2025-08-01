@@ -1,16 +1,15 @@
 import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
 
 const Home = () => {
     return ( 
         <div className="HomeContent">
-            <Helmet>
-                <title>Meii</title>
-                <meta property="og:title" content="Meii" />
-                <meta name="description" content="The best free Discord confession bot." />
-                <meta property="og:description" content="The best free Discord confession bot." />
-                <meta property="og:url" content="meiibot.xyz" />
-            </Helmet>
+            {/* React 19 native metadata tags */}
+            <title>Meii</title>
+            <meta property="og:title" content="Meii" />
+            <meta name="description" content="The best free Discord confession bot." />
+            <meta property="og:description" content="The best free Discord confession bot." />
+            <meta property="og:url" content="meiibot.xyz" />
+
             <div className="LayoutContainer">
                 <div className="InfoBubble">
                     <div className="InfoColLeft">
@@ -85,5 +84,5 @@ const Home = () => {
         </div>
      );
 }
- 
+
 export default Home;

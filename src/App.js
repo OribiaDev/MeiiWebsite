@@ -1,6 +1,5 @@
 //Packages
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import { HelmetProvider } from 'react-helmet-async';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 //Pages
 import Home from './WebPages/Home';
@@ -10,17 +9,16 @@ import Redirect from './Components/Redirect';
 import TOS from './WebPages/TOS';
 import PrivacyP from './WebPages/PrivacyP';
 
-//Componets
+//Components
 import NavBar from "./Components/NavBar";
 import InviteBanner from './Components/InviteBanner';
 import Footer from './Components/Footer';
 
 function App() {
   return (
-    <HelmetProvider>
-      <Router>
-        <div className="App">
-          <div className='content'>
+    <Router>
+      <div className="App">
+        <div className='content'>
           <NavBar/>
           <Routes>
             <Route path="/" element={<Home />}/>
@@ -33,10 +31,9 @@ function App() {
           </Routes>
           <InviteBanner />
           <Footer />
-          </div>
         </div>
-      </Router>
-    </HelmetProvider>
+      </div>
+    </Router>
   );
 }
 
