@@ -1,6 +1,6 @@
 {
   "name": "meiiwebsite",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "private": true,
   "dependencies": {
     "19": "^0.0.0",
@@ -10,7 +10,7 @@
     "i": "^0.3.7",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "react-router-dom": "^7.7.1",
+    "react-router-dom": "^7.8.0",
     "react-scripts": "^5.0.1",
     "web-vitals": "^5.1.0"
   },
