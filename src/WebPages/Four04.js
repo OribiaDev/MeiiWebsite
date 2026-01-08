@@ -8,7 +8,7 @@ const Four04 = () => {
         <meta property="og:title" content="404 • Meii" />
         <meta name="description" content="404 Page Not Found" />
         <meta property="og:description" content="404 Page Not Found" />
-        <meta property="og:url" content="meiibot.xyz/404" />
+        <meta property="og:url" content="meii.bot/404" />
       </head>
       <div className="Four04Bubble">
         <div className="Four04TextContainer">

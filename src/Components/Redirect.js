@@ -12,7 +12,7 @@ const Redirect = ({ link }) => {
         <meta property="og:title" content="Redirect • Meii" />
         <meta name="description" content="A redirect link for Meii." />
         <meta property="og:description" content="A redirect link for Meii." />
-        <meta property="og:url" content="meiibot.xyz" />
+        <meta property="og:url" content="meii.bot" />
       </head>
 
       <div className='MemeImage'>

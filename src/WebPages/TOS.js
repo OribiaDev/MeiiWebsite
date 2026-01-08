@@ -8,7 +8,7 @@ const TOS = () => {
         <meta property="og:title" content="Terms Of Service • Meii" />
         <meta name="description" content="Terms Of Service for Meii." />
         <meta property="og:description" content="Terms Of Service for Meii." />
-        <meta property="og:url" content="meiibot.xyz/terms-of-service" />
+        <meta property="og:url" content="meii.bot/terms-of-service" />
       </head>
       <div className="TOSBubble">
         <div className="TOSTitle">Terms Of Service</div>

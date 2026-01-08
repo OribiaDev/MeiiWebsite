@@ -72,7 +72,7 @@ const Commands = () => {
         <meta property="og:title" content="Commands • Meii" />
         <meta name="description" content="The commands list for Meii." />
         <meta property="og:description" content="The commands list for Meii." />
-        <meta property="og:url" content="meiibot.xyz/commands" />
+        <meta property="og:url" content="meii.bot/commands" />
       </head>
       <div className="CommandsLayoutContainer">
         <div className="CommandBoxContainer">

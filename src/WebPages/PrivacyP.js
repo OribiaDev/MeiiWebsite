@@ -8,7 +8,7 @@ const PrivacyP = () => {
         <meta property="og:title" content="Privacy Policy • Meii" />
         <meta name="description" content="Privacy Policy for Meii." />
         <meta property="og:description" content="Privacy Policy for Meii." />
-        <meta property="og:url" content="meiibot.xyz/privacy-policy" />
+        <meta property="og:url" content="meii.bot/privacy-policy" />
       </head>
       <div className="PrivacyPBubble">
         <div className="PrivacyPTitle">Privacy Policy</div>

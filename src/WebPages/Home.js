@@ -8,7 +8,7 @@ const Home = () => {
             <meta property="og:title" content="Meii" />
             <meta name="description" content="The best free Discord confession bot." />
             <meta property="og:description" content="The best free Discord confession bot." />
-            <meta property="og:url" content="meiibot.xyz" />
+            <meta property="og:url" content="meii.bot" />
 
             <div className="LayoutContainer">
                 <div className="InfoBubble">
