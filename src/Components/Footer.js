@@ -23,6 +23,7 @@ const Footer = () => {
                         <div className="LCLinkContainer">
                             <div className='LCLinkDiv'><Link to="/terms-of-service" id='LC' className='GenericLinkDeco'>Terms Of Service</Link></div>
                             <div className='LCLinkDiv'><Link to="/privacy-policy" id='LC'className='GenericLinkDeco'>Privacy Policy</Link></div>
+                            <div className='LCLinkDiv'><Link to="https://status.meii.bot" id='LC'className='GenericLinkDeco'>Status Page</Link></div>
                             <div className='LCLinkDiv'><Link to="/discord" id='LC'className='GenericLinkDeco'>Support Server</Link></div>
                         </div>
                     </div>
