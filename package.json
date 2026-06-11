@@ -1,6 +1,6 @@
 {
   "name": "meiiwebsite",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "private": true,
   "dependencies": {
     "19": "^0.0.0",
@@ -8,11 +8,11 @@
     "@testing-library/react": "^16.3.2",
     "@testing-library/user-event": "^14.6.1",
     "i": "^0.3.7",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
-    "react-router-dom": "^7.13.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-router-dom": "^7.17.0",
     "react-scripts": "^5.0.1",
-    "web-vitals": "^5.1.0"
+    "web-vitals": "^5.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
