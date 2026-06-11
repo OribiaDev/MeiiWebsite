@@ -52,6 +52,7 @@ const Commands = () => {
     { commandName: "/stats", commandDesc: "Shows Meii's stats", commandUsage: "/stats", filter: "utility", id: 36 },
     { commandName: "/support", commandDesc: "Sends the invite for Meii's support server", commandUsage: "/support", filter: "utility", id: 37 },
     { commandName: "/delete_data", commandDesc: "Deletes all stored data for the current server", commandUsage: "/delete_data", filter: "utility", id: 38 },
+    { commandName: "/review", commandDesc: "Approves/Denies a confession", commandUsage: "/review [confession ID] [approve/deny]", filter: "confessions", id: 39 },
   ]);
 
   // Button Handlers
