@@ -5,7 +5,7 @@ const Home = () => {
         <div className="HomeContent">
             {/* React 19 native metadata tags */}
             <title>Meii</title>
-            <meta property="og:title" content="Meii" />
+            <meta property="og:title" content="Meii - The simpliest free Discord confession bot" />
             <meta name="description" content="The best free Discord confession bot." />
             <meta property="og:description" content="The best free Discord confession bot." />
             <meta property="og:url" content="meii.bot" />
