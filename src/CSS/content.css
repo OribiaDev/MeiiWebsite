@@ -36,7 +36,7 @@ body{
 }
 
 /* Media Query Phones */
-@media only screen and (max-device-width: 435px) {
+@media only screen and (max-device-width: 768px) {
     ::-webkit-scrollbar {
         width: 4px;
         height: 0px;  

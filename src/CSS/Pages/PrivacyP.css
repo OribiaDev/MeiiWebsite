@@ -50,7 +50,7 @@
 }
 
 /* Phones */
-@media only screen and (max-device-width: 435px) {
+@media only screen and (max-device-width: 768px) {
     .PrivacyPContainer{
         width: 93vw;
         margin: auto;    

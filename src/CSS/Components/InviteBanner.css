@@ -70,7 +70,7 @@
 }
 
 /* Media Query Phones */
-@media only screen and (max-device-width: 435px) {
+@media only screen and (max-device-width: 768px) {
     .bText{
         font-size: 16px;
     }

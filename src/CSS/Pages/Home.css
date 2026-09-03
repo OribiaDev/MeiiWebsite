@@ -198,7 +198,7 @@
 }
 
 /* Phones */
-@media only screen and (max-device-width: 435px) {
+@media only screen and (max-device-width: 768px) {
     .LayoutContainer{  
         margin: auto;
         padding-top: 40px;
